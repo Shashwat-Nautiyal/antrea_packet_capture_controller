@@ -10,6 +10,8 @@ kind
 *.swp
 *.swo
 *~
+DEVELOPMENT_REPORT.md
+TASK.md
 
 # OS files
 .DS_Store
