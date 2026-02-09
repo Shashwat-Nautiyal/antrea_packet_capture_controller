@@ -1,0 +1,51 @@
+# =========================
+# Go Binaries & Build
+# =========================
+packet-capture-controller
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# =========================
+# Go Test & Coverage
+# =========================
+*.test
+*.out
+coverage.html
+
+# =========================
+# Capture Artifacts
+# =========================
+*.pcap
+*.pcap.gz
+capture-output.txt
+capture-files.txt
+
+# =========================
+# Debug / Diagnostic Output
+# =========================
+pods.txt
+pod-describe.txt
+
+# =========================
+# Kind binary (downloaded)
+# =========================
+kind
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =========================
+# OS generated files
+# =========================
+Thumbs.db
+.DS_Store

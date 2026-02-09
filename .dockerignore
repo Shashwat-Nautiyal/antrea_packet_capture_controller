@@ -1,0 +1,17 @@
+# Binaries
+packet-capture-controller
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# Artifacts
+*.pcap*
+capture-*
+
+# Test files
+*_test.go

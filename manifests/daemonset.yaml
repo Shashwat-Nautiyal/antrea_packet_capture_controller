@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: packet-capture
+  namespace: kube-system
+  labels:
+    app: packet-capture
+spec:
+  selector:
+    matchLabels:
+      app: packet-capture
+  template:
+    metadata:
+      labels:
+        app: packet-capture
+    spec:
+      serviceAccountName: packet-capture-sa
+      hostNetwork: true
+      containers:
+      - name: packet-capture-controller
+        image: packet-capture-controller:latest
+        imagePullPolicy: Never
+        securityContext:
+          privileged: true
+        env:
+        - name: NODE_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: spec.nodeName
+        volumeMounts:
+        - name: captures
+          mountPath: /captures
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 500m
+            memory: 512Mi
+      volumes:
+      - name: captures
+        emptyDir: {}
