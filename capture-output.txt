@@ -1,0 +1,1271 @@
+reading from file capture.pcap, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144
+Warning: interface names might be incorrect
+00:40:07.505776 enp45s0 Out IP 172.17.0.3.27597 > 172.17.0.4.6443: Flags [.], ack 4238404303, win 607, options [nop,nop,TS val 3865601607 ecr 1019778760], length 0
+00:40:07.691024 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3299396520:3299396558, ack 3788125840, win 9801, options [nop,nop,TS val 3648977840 ecr 1019778703], length 38
+00:40:07.694104 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 1:67, ack 38, win 9411, options [nop,nop,TS val 1019778989 ecr 3648977840], length 66
+00:40:07.694156 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 67, win 9801, options [nop,nop,TS val 3648977843 ecr 1019778989], length 0
+00:40:07.694205 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 67:4005, ack 38, win 9411, options [nop,nop,TS val 1019778989 ecr 3648977843], length 3938
+00:40:07.694215 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 4005, win 9783, options [nop,nop,TS val 3648977843 ecr 1019778989], length 0
+00:40:07.694359 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 38:73, ack 4005, win 9801, options [nop,nop,TS val 3648977843 ecr 1019778989], length 35
+00:40:07.695057 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 73:117, ack 4005, win 9801, options [nop,nop,TS val 3648977844 ecr 1019778989], length 44
+00:40:07.695095 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 117:1047, ack 4005, win 9801, options [nop,nop,TS val 3648977844 ecr 1019778989], length 930
+00:40:07.695127 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 117, win 9411, options [nop,nop,TS val 1019778990 ecr 3648977843], length 0
+00:40:07.703958 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 4005:4075, ack 1047, win 9411, options [nop,nop,TS val 1019778999 ecr 3648977844], length 70
+00:40:07.704035 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 4075:8193, ack 1047, win 9411, options [nop,nop,TS val 1019778999 ecr 3648977844], length 4118
+00:40:07.704068 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.27597: Flags [P.], seq 1:5971, ack 0, win 578, options [nop,nop,TS val 1019778999 ecr 3865601607], length 5970
+00:40:07.704074 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 2281483826:2281487775, ack 1234296482, win 615, options [nop,nop,TS val 1019778999 ecr 3865600846], length 3949
+00:40:07.704081 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 8193:11953, ack 1047, win 9411, options [nop,nop,TS val 1019778999 ecr 3648977844], length 3760
+00:40:07.704108 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 11953, win 9801, options [nop,nop,TS val 3648977853 ecr 1019778999], length 0
+00:40:07.704127 enp45s0 Out IP 172.17.0.3.27597 > 172.17.0.4.6443: Flags [.], ack 5971, win 607, options [nop,nop,TS val 3865601805 ecr 1019778999], length 0
+00:40:07.704188 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 3949, win 12435, options [nop,nop,TS val 3865601805 ecr 1019778999], length 0
+00:40:07.704323 enp45s0 Out IP 172.17.0.3.27597 > 172.17.0.4.6443: Flags [P.], seq 0:35, ack 5971, win 607, options [nop,nop,TS val 3865601805 ecr 1019778999], length 35
+00:40:07.704328 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [P.], seq 1:36, ack 3949, win 12435, options [nop,nop,TS val 3865601805 ecr 1019778999], length 35
+00:40:07.704356 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [.], ack 36, win 615, options [nop,nop,TS val 1019778999 ecr 3865601805], length 0
+00:40:07.704473 enp45s0 Out IP 172.17.0.3.27597 > 172.17.0.4.6443: Flags [P.], seq 35:83, ack 5971, win 607, options [nop,nop,TS val 3865601805 ecr 1019778999], length 48
+00:40:07.704514 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 1047:1082, ack 11953, win 9801, options [nop,nop,TS val 3648977853 ecr 1019778999], length 35
+00:40:07.704563 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.27597: Flags [.], ack 83, win 578, options [nop,nop,TS val 1019778999 ecr 3865601805], length 0
+00:40:07.744825 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 1082, win 9411, options [nop,nop,TS val 1019779040 ecr 3648977853], length 0
+00:40:07.758179 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 685, seq 1, length 64
+00:40:07.758209 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 685, seq 1, length 64
+00:40:07.758235 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 685, seq 1, length 64
+00:40:07.813613 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 685, seq 1, length 64
+00:40:07.813635 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 685, seq 1, length 64
+00:40:07.813652 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 685, seq 1, length 64
+00:40:07.834936 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:07.835220 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:08.002090 enp45s0 In  IP 172.17.0.2.41776 > 172.17.0.3.10351: Flags [S], seq 4054204377, win 64240, options [mss 1460,sackOK,TS val 1484057227 ecr 0,nop,wscale 7], length 0
+00:40:08.002154 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.41776: Flags [S.], seq 2816002774, ack 4054204378, win 65160, options [mss 1460,sackOK,TS val 3254351229 ecr 1484057227,nop,wscale 7], length 0
+00:40:08.002205 enp45s0 In  IP 172.17.0.2.41776 > 172.17.0.3.10351: Flags [.], ack 1, win 502, options [nop,nop,TS val 1484057227 ecr 3254351229], length 0
+00:40:08.002221 enp45s0 Out IP 172.17.0.3.53642 > 172.17.0.4.10351: Flags [S], seq 1849234781, win 64240, options [mss 1460,sackOK,TS val 3648978151 ecr 0,nop,wscale 7], length 0
+00:40:08.002299 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.53642: Flags [S.], seq 1006896573, ack 1849234782, win 65160, options [mss 1460,sackOK,TS val 1019779297 ecr 3648978151,nop,wscale 7], length 0
+00:40:08.002325 enp45s0 Out IP 172.17.0.3.53642 > 172.17.0.4.10351: Flags [.], ack 1, win 502, options [nop,nop,TS val 3648978151 ecr 1019779297], length 0
+00:40:08.002417 enp45s0 In  IP 172.17.0.4.49832 > 172.17.0.3.10351: Flags [S], seq 4265996311, win 64240, options [mss 1460,sackOK,TS val 1019779297 ecr 0,nop,wscale 7], length 0
+00:40:08.002458 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.49832: Flags [S.], seq 2751043119, ack 4265996312, win 65160, options [mss 1460,sackOK,TS val 3648978151 ecr 1019779297,nop,wscale 7], length 0
+00:40:08.002497 enp45s0 In  IP 172.17.0.4.49832 > 172.17.0.3.10351: Flags [.], ack 1, win 502, options [nop,nop,TS val 1019779297 ecr 3648978151], length 0
+00:40:08.002522 enp45s0 In  IP 172.17.0.2.41776 > 172.17.0.3.10351: Flags [P.], seq 1:238, ack 1, win 502, options [nop,nop,TS val 1484057227 ecr 3254351229], length 237
+00:40:08.002546 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.41776: Flags [.], ack 238, win 508, options [nop,nop,TS val 3254351229 ecr 1484057227], length 0
+00:40:08.002555 enp45s0 Out IP 172.17.0.3.53642 > 172.17.0.4.10351: Flags [P.], seq 1:238, ack 1, win 502, options [nop,nop,TS val 3648978151 ecr 1019779297], length 237
+00:40:08.002585 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.53642: Flags [.], ack 238, win 508, options [nop,nop,TS val 1019779297 ecr 3648978151], length 0
+00:40:08.002799 enp45s0 In  IP 172.17.0.4.49832 > 172.17.0.3.10351: Flags [P.], seq 1:238, ack 1, win 502, options [nop,nop,TS val 1019779298 ecr 3648978151], length 237
+00:40:08.002819 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.49832: Flags [.], ack 238, win 508, options [nop,nop,TS val 3648978152 ecr 1019779298], length 0
+00:40:08.002904 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.41776: Flags [P.], seq 1:238, ack 238, win 508, options [nop,nop,TS val 3254351230 ecr 1484057227], length 237
+00:40:08.002917 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.53642: Flags [P.], seq 1:238, ack 238, win 508, options [nop,nop,TS val 1019779298 ecr 3648978151], length 237
+00:40:08.002946 enp45s0 Out IP 172.17.0.3.53642 > 172.17.0.4.10351: Flags [.], ack 238, win 501, options [nop,nop,TS val 3648978152 ecr 1019779298], length 0
+00:40:08.002958 enp45s0 In  IP 172.17.0.2.41776 > 172.17.0.3.10351: Flags [.], ack 238, win 501, options [nop,nop,TS val 1484057228 ecr 3254351230], length 0
+00:40:08.003013 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.53642: Flags [F.], seq 238, ack 238, win 508, options [nop,nop,TS val 1019779298 ecr 3648978152], length 0
+00:40:08.003058 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.49832: Flags [P.], seq 1:238, ack 238, win 508, options [nop,nop,TS val 3648978152 ecr 1019779298], length 237
+00:40:08.003059 enp45s0 Out IP 172.17.0.3.53642 > 172.17.0.4.10351: Flags [F.], seq 238, ack 239, win 501, options [nop,nop,TS val 3648978152 ecr 1019779298], length 0
+00:40:08.003092 enp45s0 In  IP 172.17.0.4.49832 > 172.17.0.3.10351: Flags [.], ack 238, win 501, options [nop,nop,TS val 1019779298 ecr 3648978152], length 0
+00:40:08.003096 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.53642: Flags [.], ack 239, win 508, options [nop,nop,TS val 1019779298 ecr 3648978152], length 0
+00:40:08.003111 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.41776: Flags [F.], seq 238, ack 238, win 508, options [nop,nop,TS val 3254351230 ecr 1484057228], length 0
+00:40:08.003130 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.49832: Flags [F.], seq 238, ack 238, win 508, options [nop,nop,TS val 3648978152 ecr 1019779298], length 0
+00:40:08.003132 enp45s0 In  IP 172.17.0.2.41776 > 172.17.0.3.10351: Flags [F.], seq 238, ack 238, win 501, options [nop,nop,TS val 1484057228 ecr 3254351230], length 0
+00:40:08.003149 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.41776: Flags [.], ack 239, win 508, options [nop,nop,TS val 3254351230 ecr 1484057228], length 0
+00:40:08.003169 enp45s0 In  IP 172.17.0.2.41776 > 172.17.0.3.10351: Flags [.], ack 239, win 501, options [nop,nop,TS val 1484057228 ecr 3254351230], length 0
+00:40:08.003235 enp45s0 In  IP 172.17.0.4.49832 > 172.17.0.3.10351: Flags [F.], seq 238, ack 239, win 501, options [nop,nop,TS val 1019779298 ecr 3648978152], length 0
+00:40:08.003261 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.49832: Flags [.], ack 239, win 508, options [nop,nop,TS val 3648978152 ecr 1019779298], length 0
+00:40:08.758365 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 685, seq 2, length 64
+00:40:08.758400 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 685, seq 2, length 64
+00:40:08.758430 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 685, seq 2, length 64
+00:40:08.822869 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 685, seq 2, length 64
+00:40:08.822896 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 685, seq 2, length 64
+00:40:08.822913 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 685, seq 2, length 64
+00:40:08.834762 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:08.834994 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:09.206671 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:09.206958 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:09.255263 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [S], seq 4012541066, win 65476, options [mss 65476,sackOK,TS val 646605993 ecr 0,nop,wscale 7], length 0
+00:40:09.255263 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [S], seq 3296280147, win 65476, options [mss 65476,sackOK,TS val 646605993 ecr 0,nop,wscale 7], length 0
+00:40:09.255295 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [S.], seq 711535498, ack 3296280148, win 65464, options [mss 65476,sackOK,TS val 646605993 ecr 646605993,nop,wscale 7], length 0
+00:40:09.255295 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [S.], seq 3625886278, ack 4012541067, win 65464, options [mss 65476,sackOK,TS val 646605993 ecr 646605993,nop,wscale 7], length 0
+00:40:09.255318 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646605993 ecr 646605993], length 0
+00:40:09.255318 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646605993 ecr 646605993], length 0
+00:40:09.255803 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646605994 ecr 646605993], length 275
+00:40:09.255832 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [.], ack 276, win 510, options [nop,nop,TS val 646605994 ecr 646605994], length 0
+00:40:09.259852 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646605998 ecr 646605994], length 2341
+00:40:09.259876 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646605998 ecr 646605998], length 0
+00:40:09.261524 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646605999 ecr 646605998], length 94
+00:40:09.261642 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646605999 ecr 646605998], length 86
+00:40:09.261753 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [P.], seq 456:527, ack 2342, win 706, options [nop,nop,TS val 646606000 ecr 646605998], length 71
+00:40:09.261767 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [.], ack 456, win 512, options [nop,nop,TS val 646605999 ecr 646605999], length 0
+00:40:09.261821 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [P.], seq 2342:2403, ack 527, win 512, options [nop,nop,TS val 646606000 ecr 646606000], length 61
+00:40:09.261887 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [P.], seq 2403:2447, ack 527, win 512, options [nop,nop,TS val 646606000 ecr 646606000], length 44
+00:40:09.261904 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [P.], seq 527:558, ack 2403, win 706, options [nop,nop,TS val 646606000 ecr 646606000], length 31
+00:40:09.262400 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [P.], seq 2447:2486, ack 558, win 512, options [nop,nop,TS val 646606000 ecr 646606000], length 39
+00:40:09.262440 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [.], ack 2486, win 706, options [nop,nop,TS val 646606000 ecr 646606000], length 0
+00:40:09.262508 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [P.], seq 2486:2638, ack 558, win 512, options [nop,nop,TS val 646606000 ecr 646606000], length 152
+00:40:09.262563 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [P.], seq 2638:2671, ack 558, win 512, options [nop,nop,TS val 646606000 ecr 646606000], length 33
+00:40:09.262615 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [.], ack 2671, win 718, options [nop,nop,TS val 646606000 ecr 646606000], length 0
+00:40:09.262658 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [P.], seq 558:582, ack 2671, win 718, options [nop,nop,TS val 646606000 ecr 646606000], length 24
+00:40:09.262698 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [F.], seq 582, ack 2671, win 718, options [nop,nop,TS val 646606000 ecr 646606000], length 0
+00:40:09.262861 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44964: Flags [P.], seq 2671:2695, ack 583, win 512, options [nop,nop,TS val 646606001 ecr 646606000], length 24
+00:40:09.262897 lo    In  IP6 ip6-localhost.44964 > ip6-localhost.10350: Flags [R], seq 4012541649, win 0, length 0
+00:40:09.263605 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646606001 ecr 646605993], length 275
+00:40:09.263624 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [.], ack 276, win 510, options [nop,nop,TS val 646606001 ecr 646606001], length 0
+00:40:09.268730 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646606006 ecr 646606001], length 2341
+00:40:09.268773 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646606007 ecr 646606006], length 0
+00:40:09.270545 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646606008 ecr 646606006], length 94
+00:40:09.270654 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646606008 ecr 646606006], length 86
+00:40:09.270779 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [.], ack 456, win 512, options [nop,nop,TS val 646606009 ecr 646606008], length 0
+00:40:09.271126 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [P.], seq 2342:2403, ack 456, win 512, options [nop,nop,TS val 646606009 ecr 646606008], length 61
+00:40:09.271268 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [P.], seq 456:528, ack 2403, win 706, options [nop,nop,TS val 646606009 ecr 646606009], length 72
+00:40:09.272123 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [P.], seq 2403:2447, ack 528, win 512, options [nop,nop,TS val 646606010 ecr 646606009], length 44
+00:40:09.272231 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [P.], seq 2447:2486, ack 528, win 512, options [nop,nop,TS val 646606010 ecr 646606009], length 39
+00:40:09.272296 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [P.], seq 528:559, ack 2486, win 706, options [nop,nop,TS val 646606010 ecr 646606010], length 31
+00:40:09.272352 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [P.], seq 2486:2638, ack 559, win 512, options [nop,nop,TS val 646606010 ecr 646606010], length 152
+00:40:09.272450 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [P.], seq 2638:2671, ack 559, win 512, options [nop,nop,TS val 646606010 ecr 646606010], length 33
+00:40:09.272519 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [.], ack 2671, win 713, options [nop,nop,TS val 646606010 ecr 646606010], length 0
+00:40:09.272585 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [P.], seq 559:583, ack 2671, win 713, options [nop,nop,TS val 646606010 ecr 646606010], length 24
+00:40:09.272653 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [P.], seq 2671:2695, ack 583, win 512, options [nop,nop,TS val 646606010 ecr 646606010], length 24
+00:40:09.272700 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [F.], seq 2695, ack 583, win 512, options [nop,nop,TS val 646606010 ecr 646606010], length 0
+00:40:09.272800 lo    In  IP6 ip6-localhost.44954 > ip6-localhost.10350: Flags [F.], seq 583, ack 2696, win 713, options [nop,nop,TS val 646606011 ecr 646606010], length 0
+00:40:09.272837 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.44954: Flags [.], ack 584, win 512, options [nop,nop,TS val 646606011 ecr 646606011], length 0
+00:40:09.758581 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 685, seq 3, length 64
+00:40:09.758601 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 685, seq 3, length 64
+00:40:09.758622 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 685, seq 3, length 64
+00:40:09.834665 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:09.834964 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:09.853771 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 685, seq 3, length 64
+00:40:09.853800 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 685, seq 3, length 64
+00:40:09.853822 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 685, seq 3, length 64
+00:40:10.121072 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:10.121284 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:10.758785 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 685, seq 4, length 64
+00:40:10.758821 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 685, seq 4, length 64
+00:40:10.758852 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 685, seq 4, length 64
+00:40:10.827073 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 685, seq 4, length 64
+00:40:10.827096 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 685, seq 4, length 64
+00:40:10.827114 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 685, seq 4, length 64
+00:40:10.834866 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:10.835172 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:11.044402 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 11953:12052, ack 1082, win 9411, options [nop,nop,TS val 1019782339 ecr 3648977853], length 99
+00:40:11.044403 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 3949:4048, ack 36, win 615, options [nop,nop,TS val 1019782339 ecr 3865601805], length 99
+00:40:11.084761 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 12052, win 9801, options [nop,nop,TS val 3648981234 ecr 1019782339], length 0
+00:40:11.085843 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 4048, win 12435, options [nop,nop,TS val 3865605187 ecr 1019782339], length 0
+00:40:11.120600 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:11.120900 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:11.206228 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:11.206595 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:11.834695 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:11.834982 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:12.229738 enp45s0 In  ARP, Request who-has 172.17.0.3 tell ubuntu, length 28
+00:40:12.229772 enp45s0 Out ARP, Reply 172.17.0.3 is-at de:32:db:ee:df:b4 (oui Unknown), length 28
+00:40:12.831818 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 0, length 64
+00:40:12.831856 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 0, length 64
+00:40:12.831908 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 687, seq 0, length 64
+00:40:12.835057 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:12.835337 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:12.888315 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 687, seq 0, length 64
+00:40:12.888336 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 0, length 64
+00:40:12.888354 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 0, length 64
+00:40:13.205951 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:13.206310 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:13.832057 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 1, length 64
+00:40:13.832085 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 1, length 64
+00:40:13.832113 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 687, seq 1, length 64
+00:40:13.834447 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:13.834733 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:14.039273 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 687, seq 1, length 64
+00:40:14.039297 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 1, length 64
+00:40:14.039312 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 1, length 64
+00:40:14.077028 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 1082:1198, ack 12052, win 9801, options [nop,nop,TS val 3648984226 ecr 1019782339], length 116
+00:40:14.077074 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 1198, win 9411, options [nop,nop,TS val 1019785372 ecr 3648984226], length 0
+00:40:14.077106 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 1198:1744, ack 12052, win 9801, options [nop,nop,TS val 3648984226 ecr 1019785372], length 546
+00:40:14.077120 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 1744, win 9409, options [nop,nop,TS val 1019785372 ecr 3648984226], length 0
+00:40:14.103319 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 12052:12203, ack 1744, win 9411, options [nop,nop,TS val 1019785398 ecr 3648984226], length 151
+00:40:14.103349 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 12203, win 9801, options [nop,nop,TS val 3648984252 ecr 1019785398], length 0
+00:40:14.103405 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 12203:12749, ack 1744, win 9411, options [nop,nop,TS val 1019785398 ecr 3648984252], length 546
+00:40:14.103413 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 12749, win 9799, options [nop,nop,TS val 3648984252 ecr 1019785398], length 0
+00:40:14.103619 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 1744:1779, ack 12749, win 9801, options [nop,nop,TS val 3648984252 ecr 1019785398], length 35
+00:40:14.121426 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:14.121673 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:14.143823 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 1779, win 9411, options [nop,nop,TS val 1019785439 ecr 3648984252], length 0
+00:40:14.149399 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 12749:12868, ack 1779, win 9411, options [nop,nop,TS val 1019785444 ecr 3648984252], length 119
+00:40:14.189782 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 12868, win 9801, options [nop,nop,TS val 3648984339 ecr 1019785444], length 0
+00:40:14.771511 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 1779:1817, ack 12868, win 9801, options [nop,nop,TS val 3648984920 ecr 1019785444], length 38
+00:40:14.771574 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 1817, win 9411, options [nop,nop,TS val 1019786066 ecr 3648984920], length 0
+00:40:14.773274 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 12868:12934, ack 1817, win 9411, options [nop,nop,TS val 1019786068 ecr 3648984920], length 66
+00:40:14.773303 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 12934, win 9801, options [nop,nop,TS val 3648984922 ecr 1019786068], length 0
+00:40:14.773355 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 12934:17522, ack 1817, win 9411, options [nop,nop,TS val 1019786068 ecr 3648984922], length 4588
+00:40:14.773364 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 17522, win 9779, options [nop,nop,TS val 3648984922 ecr 1019786068], length 0
+00:40:14.773512 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 17522:17553, ack 1817, win 9411, options [nop,nop,TS val 1019786068 ecr 3648984922], length 31
+00:40:14.773521 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 17553, win 9801, options [nop,nop,TS val 3648984922 ecr 1019786068], length 0
+00:40:14.773550 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 1817:1865, ack 17553, win 9801, options [nop,nop,TS val 3648984922 ecr 1019786068], length 48
+00:40:14.814792 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 1865, win 9411, options [nop,nop,TS val 1019786110 ecr 3648984922], length 0
+00:40:14.832258 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 2, length 64
+00:40:14.832288 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 2, length 64
+00:40:14.832318 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 687, seq 2, length 64
+00:40:14.835005 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:14.835331 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:14.889859 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 687, seq 2, length 64
+00:40:14.889882 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 2, length 64
+00:40:14.889901 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 2, length 64
+00:40:15.205959 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:15.206250 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:15.832460 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 3, length 64
+00:40:15.832488 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 3, length 64
+00:40:15.832515 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 687, seq 3, length 64
+00:40:15.834863 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:15.835222 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:15.993940 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 687, seq 3, length 64
+00:40:15.993964 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 3, length 64
+00:40:15.993981 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 3, length 64
+00:40:16.206479 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:16.206728 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:16.477434 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [S], seq 2574067392, win 64240, options [mss 1460,sackOK,TS val 1019787772 ecr 0,nop,wscale 7], length 0
+00:40:16.477474 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [S.], seq 3447645187, ack 2574067393, win 65160, options [mss 1460,sackOK,TS val 3648986626 ecr 1019787772,nop,wscale 7], length 0
+00:40:16.477499 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 1, win 502, options [nop,nop,TS val 1019787772 ecr 3648986626], length 0
+00:40:16.477886 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [P.], seq 1:258, ack 1, win 502, options [nop,nop,TS val 1019787773 ecr 3648986626], length 257
+00:40:16.477916 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [.], ack 258, win 508, options [nop,nop,TS val 3648986627 ecr 1019787773], length 0
+00:40:16.482592 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 1:2298, ack 258, win 508, options [nop,nop,TS val 3648986631 ecr 1019787773], length 2297
+00:40:16.482625 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 2298, win 538, options [nop,nop,TS val 1019787777 ecr 3648986631], length 0
+00:40:16.488326 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [P.], seq 258:1461, ack 2298, win 538, options [nop,nop,TS val 1019787783 ecr 3648986631], length 1203
+00:40:16.488429 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [P.], seq 1461:1547, ack 2298, win 538, options [nop,nop,TS val 1019787783 ecr 3648986631], length 86
+00:40:16.488438 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [.], ack 1547, win 531, options [nop,nop,TS val 3648986637 ecr 1019787783], length 0
+00:40:16.488527 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [P.], seq 1547:1677, ack 2298, win 538, options [nop,nop,TS val 1019787783 ecr 3648986637], length 130
+00:40:16.489346 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 2298:2359, ack 1677, win 554, options [nop,nop,TS val 3648986638 ecr 1019787783], length 61
+00:40:16.489415 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 2359:2403, ack 1677, win 554, options [nop,nop,TS val 3648986638 ecr 1019787783], length 44
+00:40:16.489679 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 2403, win 538, options [nop,nop,TS val 1019787784 ecr 3648986638], length 0
+00:40:16.489745 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [P.], seq 1677:1708, ack 2403, win 538, options [nop,nop,TS val 1019787785 ecr 3648986638], length 31
+00:40:16.490286 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 1865:1944, ack 17553, win 9801, options [nop,nop,TS val 3648986639 ecr 1019786110], length 79
+00:40:16.490320 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 1944, win 9411, options [nop,nop,TS val 1019787785 ecr 3648986639], length 0
+00:40:16.490348 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 1944:2187, ack 17553, win 9801, options [nop,nop,TS val 3648986639 ecr 1019787785], length 243
+00:40:16.490362 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 2187, win 9410, options [nop,nop,TS val 1019787785 ecr 3648986639], length 0
+00:40:16.492640 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 17553:17646, ack 2187, win 9411, options [nop,nop,TS val 1019787787 ecr 3648986639], length 93
+00:40:16.492682 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 17646:18108, ack 2187, win 9411, options [nop,nop,TS val 1019787787 ecr 3648986639], length 462
+00:40:16.492766 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 18108, win 9801, options [nop,nop,TS val 3648986642 ecr 1019787787], length 0
+00:40:16.493021 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 2403:2459, ack 1708, win 554, options [nop,nop,TS val 3648986642 ecr 1019787785], length 56
+00:40:16.493872 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 2459:2554, ack 1708, win 554, options [nop,nop,TS val 3648986643 ecr 1019787785], length 95
+00:40:16.493916 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 2554:2644, ack 1708, win 554, options [nop,nop,TS val 3648986643 ecr 1019787785], length 90
+00:40:16.493935 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 2554, win 538, options [nop,nop,TS val 1019787789 ecr 3648986642], length 0
+00:40:16.493956 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 2644:2762, ack 1708, win 554, options [nop,nop,TS val 3648986643 ecr 1019787789], length 118
+00:40:16.493987 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 2762:2863, ack 1708, win 554, options [nop,nop,TS val 3648986643 ecr 1019787789], length 101
+00:40:16.493997 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 2762, win 538, options [nop,nop,TS val 1019787789 ecr 3648986643], length 0
+00:40:16.494025 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 2863:2990, ack 1708, win 554, options [nop,nop,TS val 3648986643 ecr 1019787789], length 127
+00:40:16.494056 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 2990:3178, ack 1708, win 554, options [nop,nop,TS val 3648986643 ecr 1019787789], length 188
+00:40:16.494068 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 2990, win 538, options [nop,nop,TS val 1019787789 ecr 3648986643], length 0
+00:40:16.494087 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 3178:3274, ack 1708, win 554, options [nop,nop,TS val 3648986643 ecr 1019787789], length 96
+00:40:16.494115 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 3274, win 561, options [nop,nop,TS val 1019787789 ecr 3648986643], length 0
+00:40:16.494170 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 3274:3305, ack 1708, win 554, options [nop,nop,TS val 3648986643 ecr 1019787789], length 31
+00:40:16.535796 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 3305, win 561, options [nop,nop,TS val 1019787831 ecr 3648986643], length 0
+00:40:16.832660 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 4, length 64
+00:40:16.832687 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 687, seq 4, length 64
+00:40:16.832715 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 687, seq 4, length 64
+00:40:16.835075 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:16.835398 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:16.897914 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 687, seq 4, length 64
+00:40:16.897936 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 4, length 64
+00:40:16.897953 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 687, seq 4, length 64
+00:40:17.121277 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:17.121493 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:17.835164 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:17.835435 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:18.206961 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:18.207191 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:18.834419 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:18.834619 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:18.901899 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 0, length 64
+00:40:18.901932 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 0, length 64
+00:40:18.901975 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 689, seq 0, length 64
+00:40:18.975736 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 689, seq 0, length 64
+00:40:18.975766 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 0, length 64
+00:40:18.975788 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 0, length 64
+00:40:19.019860 enp45s0 In  IP 172.17.0.4.59422 > 172.17.0.3.10250: Flags [S], seq 31283477, win 64240, options [mss 1460,sackOK,TS val 1019790315 ecr 0,nop,wscale 7], length 0
+00:40:19.019902 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [S.], seq 3960823729, ack 31283478, win 65160, options [mss 1460,sackOK,TS val 3648989169 ecr 1019790315,nop,wscale 7], length 0
+00:40:19.019925 enp45s0 In  IP 172.17.0.4.59422 > 172.17.0.3.10250: Flags [.], ack 1, win 502, options [nop,nop,TS val 1019790315 ecr 3648989169], length 0
+00:40:19.020190 enp45s0 In  IP 172.17.0.4.59422 > 172.17.0.3.10250: Flags [P.], seq 1:255, ack 1, win 502, options [nop,nop,TS val 1019790315 ecr 3648989169], length 254
+00:40:19.020206 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [.], ack 255, win 508, options [nop,nop,TS val 3648989169 ecr 1019790315], length 0
+00:40:19.025087 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [P.], seq 1:2304, ack 255, win 508, options [nop,nop,TS val 3648989174 ecr 1019790315], length 2303
+00:40:19.025148 enp45s0 In  IP 172.17.0.4.59422 > 172.17.0.3.10250: Flags [.], ack 2304, win 538, options [nop,nop,TS val 1019790320 ecr 3648989174], length 0
+00:40:19.031056 enp45s0 In  IP 172.17.0.4.59422 > 172.17.0.3.10250: Flags [P.], seq 255:1458, ack 2304, win 538, options [nop,nop,TS val 1019790326 ecr 3648989174], length 1203
+00:40:19.031179 enp45s0 In  IP 172.17.0.4.59422 > 172.17.0.3.10250: Flags [P.], seq 1458:1980, ack 2304, win 538, options [nop,nop,TS val 1019790326 ecr 3648989174], length 522
+00:40:19.031195 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [.], ack 1980, win 554, options [nop,nop,TS val 3648989180 ecr 1019790326], length 0
+00:40:19.034443 lo    In  IP localhost.34984 > localhost.42343: Flags [S], seq 1807723869, win 65495, options [mss 65495,sackOK,TS val 2701362456 ecr 0,nop,wscale 7], length 0
+00:40:19.034476 lo    In  IP localhost.42343 > localhost.34984: Flags [S.], seq 625530428, ack 1807723870, win 65483, options [mss 65495,sackOK,TS val 2701362456 ecr 2701362456,nop,wscale 7], length 0
+00:40:19.034501 lo    In  IP localhost.34984 > localhost.42343: Flags [.], ack 1, win 512, options [nop,nop,TS val 2701362456 ecr 2701362456], length 0
+00:40:19.034654 lo    In  IP localhost.34984 > localhost.42343: Flags [P.], seq 1:400, ack 1, win 512, options [nop,nop,TS val 2701362456 ecr 2701362456], length 399
+00:40:19.034674 lo    In  IP localhost.42343 > localhost.34984: Flags [.], ack 400, win 509, options [nop,nop,TS val 2701362456 ecr 2701362456], length 0
+00:40:19.034953 lo    In  IP localhost.42343 > localhost.34984: Flags [P.], seq 1:27, ack 400, win 512, options [nop,nop,TS val 2701362457 ecr 2701362456], length 26
+00:40:19.034976 lo    In  IP localhost.34984 > localhost.42343: Flags [.], ack 27, win 512, options [nop,nop,TS val 2701362457 ecr 2701362457], length 0
+00:40:19.035004 lo    In  IP localhost.42343 > localhost.34984: Flags [F.], seq 27, ack 400, win 512, options [nop,nop,TS val 2701362457 ecr 2701362457], length 0
+00:40:19.035072 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [P.], seq 2304:2350, ack 1980, win 554, options [nop,nop,TS val 3648989184 ecr 1019790326], length 46
+00:40:19.035128 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [P.], seq 2350:2391, ack 1980, win 554, options [nop,nop,TS val 3648989184 ecr 1019790326], length 41
+00:40:19.035152 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [P.], seq 2391:2415, ack 1980, win 554, options [nop,nop,TS val 3648989184 ecr 1019790326], length 24
+00:40:19.035162 enp45s0 In  IP 172.17.0.4.59422 > 172.17.0.3.10250: Flags [.], ack 2391, win 538, options [nop,nop,TS val 1019790330 ecr 3648989184], length 0
+00:40:19.035193 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [P.], seq 2415:2439, ack 1980, win 554, options [nop,nop,TS val 3648989184 ecr 1019790330], length 24
+00:40:19.035225 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [F.], seq 2439, ack 1980, win 554, options [nop,nop,TS val 3648989184 ecr 1019790330], length 0
+00:40:19.035228 enp45s0 In  IP 172.17.0.4.59422 > 172.17.0.3.10250: Flags [.], ack 2439, win 538, options [nop,nop,TS val 1019790330 ecr 3648989184], length 0
+00:40:19.035268 lo    In  IP localhost.34984 > localhost.42343: Flags [F.], seq 400, ack 28, win 512, options [nop,nop,TS val 2701362457 ecr 2701362457], length 0
+00:40:19.035300 lo    In  IP localhost.42343 > localhost.34984: Flags [.], ack 401, win 512, options [nop,nop,TS val 2701362457 ecr 2701362457], length 0
+00:40:19.035471 enp45s0 In  IP 172.17.0.4.59422 > 172.17.0.3.10250: Flags [P.], seq 1980:2004, ack 2440, win 538, options [nop,nop,TS val 1019790330 ecr 3648989184], length 24
+00:40:19.035495 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59422: Flags [R], seq 3960826169, win 0, length 0
+00:40:19.049679 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [S], seq 2992449883, win 64240, options [mss 1460,sackOK,TS val 1019790344 ecr 0,nop,wscale 7], length 0
+00:40:19.049736 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [S.], seq 4003380999, ack 2992449884, win 65160, options [mss 1460,sackOK,TS val 3648989198 ecr 1019790344,nop,wscale 7], length 0
+00:40:19.049778 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [.], ack 1, win 502, options [nop,nop,TS val 1019790345 ecr 3648989198], length 0
+00:40:19.050059 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 1:255, ack 1, win 502, options [nop,nop,TS val 1019790345 ecr 3648989198], length 254
+00:40:19.050072 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 255, win 508, options [nop,nop,TS val 3648989199 ecr 1019790345], length 0
+00:40:19.054904 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 1:2304, ack 255, win 508, options [nop,nop,TS val 3648989204 ecr 1019790345], length 2303
+00:40:19.054947 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [.], ack 2304, win 538, options [nop,nop,TS val 1019790350 ecr 3648989204], length 0
+00:40:19.059982 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 255:1458, ack 2304, win 538, options [nop,nop,TS val 1019790355 ecr 3648989204], length 1203
+00:40:19.060114 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 1458:2111, ack 2304, win 538, options [nop,nop,TS val 1019790355 ecr 3648989204], length 653
+00:40:19.060130 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2111, win 554, options [nop,nop,TS val 3648989209 ecr 1019790355], length 0
+00:40:19.061860 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 2187:2230, ack 18108, win 9801, options [nop,nop,TS val 3648989211 ecr 1019787787], length 43
+00:40:19.061907 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 2230:2476, ack 18108, win 9801, options [nop,nop,TS val 3648989211 ecr 1019787787], length 246
+00:40:19.062038 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 2476, win 9411, options [nop,nop,TS val 1019790357 ecr 3648989211], length 0
+00:40:19.063883 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 18108:18202, ack 2476, win 9411, options [nop,nop,TS val 1019790359 ecr 3648989211], length 94
+00:40:19.063925 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 18202:18667, ack 2476, win 9411, options [nop,nop,TS val 1019790359 ecr 3648989211], length 465
+00:40:19.064014 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 18667, win 9801, options [nop,nop,TS val 3648989213 ecr 1019790359], length 0
+00:40:19.065997 lo    In  IP localhost.34986 > localhost.42343: Flags [S], seq 2564009806, win 65495, options [mss 65495,sackOK,TS val 2701362488 ecr 0,nop,wscale 7], length 0
+00:40:19.066020 lo    In  IP localhost.42343 > localhost.34986: Flags [S.], seq 2728025572, ack 2564009807, win 65483, options [mss 65495,sackOK,TS val 2701362488 ecr 2701362488,nop,wscale 7], length 0
+00:40:19.066038 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 1, win 512, options [nop,nop,TS val 2701362488 ecr 2701362488], length 0
+00:40:19.066175 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 1:531, ack 1, win 512, options [nop,nop,TS val 2701362488 ecr 2701362488], length 530
+00:40:19.066197 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 531, win 508, options [nop,nop,TS val 2701362488 ecr 2701362488], length 0
+00:40:19.066373 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 1:123, ack 531, win 512, options [nop,nop,TS val 2701362488 ecr 2701362488], length 122
+00:40:19.066392 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 123, win 512, options [nop,nop,TS val 2701362488 ecr 2701362488], length 0
+00:40:19.066468 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2304:2448, ack 2111, win 554, options [nop,nop,TS val 3648989215 ecr 1019790355], length 144
+00:40:19.069423 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2111:2135, ack 2448, win 561, options [nop,nop,TS val 1019790364 ecr 3648989215], length 24
+00:40:19.069494 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2135:2159, ack 2448, win 561, options [nop,nop,TS val 1019790364 ecr 3648989215], length 24
+00:40:19.069498 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 531:533, ack 123, win 512, options [nop,nop,TS val 2701362491 ecr 2701362488], length 2
+00:40:19.069516 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2159:2185, ack 2448, win 561, options [nop,nop,TS val 1019790364 ecr 3648989215], length 26
+00:40:19.069521 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2159, win 554, options [nop,nop,TS val 3648989218 ecr 1019790364], length 0
+00:40:19.069536 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2185:2211, ack 2448, win 561, options [nop,nop,TS val 1019790364 ecr 3648989215], length 26
+00:40:19.069540 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 533:535, ack 123, win 512, options [nop,nop,TS val 2701362491 ecr 2701362488], length 2
+00:40:19.069551 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2211, win 554, options [nop,nop,TS val 3648989218 ecr 1019790364], length 0
+00:40:19.069559 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2211:2237, ack 2448, win 561, options [nop,nop,TS val 1019790364 ecr 3648989218], length 26
+00:40:19.069565 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 535:539, ack 123, win 512, options [nop,nop,TS val 2701362491 ecr 2701362488], length 4
+00:40:19.069568 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 535, win 512, options [nop,nop,TS val 2701362491 ecr 2701362491], length 0
+00:40:19.069575 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 539:543, ack 123, win 512, options [nop,nop,TS val 2701362491 ecr 2701362488], length 4
+00:40:19.069580 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2237:2260, ack 2448, win 561, options [nop,nop,TS val 1019790364 ecr 3648989218], length 23
+00:40:19.069587 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 543, win 512, options [nop,nop,TS val 2701362491 ecr 2701362491], length 0
+00:40:19.069589 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2260, win 554, options [nop,nop,TS val 3648989218 ecr 1019790364], length 0
+00:40:19.069598 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2260:2283, ack 2448, win 561, options [nop,nop,TS val 1019790364 ecr 3648989218], length 23
+00:40:19.069603 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 543:547, ack 123, win 512, options [nop,nop,TS val 2701362491 ecr 2701362491], length 4
+00:40:19.069614 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 547:548, ack 123, win 512, options [nop,nop,TS val 2701362491 ecr 2701362491], length 1
+00:40:19.069620 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2283:2336, ack 2448, win 561, options [nop,nop,TS val 1019790364 ecr 3648989218], length 53
+00:40:19.069625 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 548, win 512, options [nop,nop,TS val 2701362491 ecr 2701362491], length 0
+00:40:19.069641 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 548:549, ack 123, win 512, options [nop,nop,TS val 2701362491 ecr 2701362491], length 1
+00:40:19.069656 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2336, win 554, options [nop,nop,TS val 3648989218 ecr 1019790364], length 0
+00:40:19.069672 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 549:580, ack 123, win 512, options [nop,nop,TS val 2701362491 ecr 2701362491], length 31
+00:40:19.069689 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 580, win 512, options [nop,nop,TS val 2701362491 ecr 2701362491], length 0
+00:40:19.070328 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 123:125, ack 580, win 512, options [nop,nop,TS val 2701362492 ecr 2701362491], length 2
+00:40:19.070350 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 125:127, ack 580, win 512, options [nop,nop,TS val 2701362492 ecr 2701362491], length 2
+00:40:19.070360 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 127:131, ack 580, win 512, options [nop,nop,TS val 2701362492 ecr 2701362491], length 4
+00:40:19.070367 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2448:2472, ack 2336, win 554, options [nop,nop,TS val 3648989219 ecr 1019790364], length 24
+00:40:19.070371 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 131:135, ack 580, win 512, options [nop,nop,TS val 2701362492 ecr 2701362491], length 4
+00:40:19.070380 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 135:151, ack 580, win 512, options [nop,nop,TS val 2701362492 ecr 2701362491], length 16
+00:40:19.070391 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 151, win 512, options [nop,nop,TS val 2701362492 ecr 2701362492], length 0
+00:40:19.070412 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2472:2520, ack 2336, win 554, options [nop,nop,TS val 3648989219 ecr 1019790364], length 48
+00:40:19.070472 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [.], ack 2520, win 561, options [nop,nop,TS val 1019790365 ecr 3648989219], length 0
+00:40:19.070978 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2336:2360, ack 2520, win 561, options [nop,nop,TS val 1019790366 ecr 3648989219], length 24
+00:40:19.071025 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 580:582, ack 151, win 512, options [nop,nop,TS val 2701362493 ecr 2701362492], length 2
+00:40:19.071047 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2360:2384, ack 2520, win 561, options [nop,nop,TS val 1019790366 ecr 3648989219], length 24
+00:40:19.071072 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2384, win 554, options [nop,nop,TS val 3648989220 ecr 1019790366], length 0
+00:40:19.071076 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2384:2410, ack 2520, win 561, options [nop,nop,TS val 1019790366 ecr 3648989219], length 26
+00:40:19.071093 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2410:2436, ack 2520, win 561, options [nop,nop,TS val 1019790366 ecr 3648989220], length 26
+00:40:19.071099 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 582:584, ack 151, win 512, options [nop,nop,TS val 2701362493 ecr 2701362492], length 2
+00:40:19.071107 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2436:2462, ack 2520, win 561, options [nop,nop,TS val 1019790366 ecr 3648989220], length 26
+00:40:19.071116 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2436, win 554, options [nop,nop,TS val 3648989220 ecr 1019790366], length 0
+00:40:19.071127 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2462:2485, ack 2520, win 561, options [nop,nop,TS val 1019790366 ecr 3648989220], length 23
+00:40:19.071130 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 584, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 0
+00:40:19.071139 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 584:588, ack 151, win 512, options [nop,nop,TS val 2701362493 ecr 2701362492], length 4
+00:40:19.071152 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2485:2508, ack 2520, win 561, options [nop,nop,TS val 1019790366 ecr 3648989220], length 23
+00:40:19.071160 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 588:592, ack 151, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 4
+00:40:19.071172 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2508:2545, ack 2520, win 561, options [nop,nop,TS val 1019790366 ecr 3648989220], length 37
+00:40:19.071181 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2508, win 554, options [nop,nop,TS val 3648989220 ecr 1019790366], length 0
+00:40:19.071185 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 592, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 0
+00:40:19.071213 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 592:596, ack 151, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 4
+00:40:19.071235 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 596:597, ack 151, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 1
+00:40:19.071251 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 597, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 0
+00:40:19.071252 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 597:598, ack 151, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 1
+00:40:19.071277 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 598:613, ack 151, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 15
+00:40:19.071305 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 613, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 0
+00:40:19.071408 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 151:153, ack 613, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 2
+00:40:19.071430 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 153:155, ack 613, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 2
+00:40:19.071444 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 155:159, ack 613, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 4
+00:40:19.071460 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 159:163, ack 613, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 4
+00:40:19.071461 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 155, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 0
+00:40:19.071477 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 163:171, ack 613, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 8
+00:40:19.071491 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2520:2546, ack 2545, win 554, options [nop,nop,TS val 3648989220 ecr 1019790366], length 26
+00:40:19.071529 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 171, win 512, options [nop,nop,TS val 2701362493 ecr 2701362493], length 0
+00:40:19.071550 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2546:2584, ack 2545, win 554, options [nop,nop,TS val 3648989220 ecr 1019790366], length 38
+00:40:19.071585 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [.], ack 2584, win 561, options [nop,nop,TS val 1019790366 ecr 3648989220], length 0
+00:40:19.071930 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2545:2569, ack 2584, win 561, options [nop,nop,TS val 1019790367 ecr 3648989220], length 24
+00:40:19.071957 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2569:2593, ack 2584, win 561, options [nop,nop,TS val 1019790367 ecr 3648989220], length 24
+00:40:19.071995 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 613:615, ack 171, win 512, options [nop,nop,TS val 2701362494 ecr 2701362493], length 2
+00:40:19.072002 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2593:2619, ack 2584, win 561, options [nop,nop,TS val 1019790367 ecr 3648989220], length 26
+00:40:19.072015 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2619:2645, ack 2584, win 561, options [nop,nop,TS val 1019790367 ecr 3648989220], length 26
+00:40:19.072020 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2619, win 554, options [nop,nop,TS val 3648989221 ecr 1019790367], length 0
+00:40:19.072035 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2645:2671, ack 2584, win 561, options [nop,nop,TS val 1019790367 ecr 3648989220], length 26
+00:40:19.072045 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 615:617, ack 171, win 512, options [nop,nop,TS val 2701362494 ecr 2701362493], length 2
+00:40:19.072059 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2671:2694, ack 2584, win 561, options [nop,nop,TS val 1019790367 ecr 3648989221], length 23
+00:40:19.072064 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 617:621, ack 171, win 512, options [nop,nop,TS val 2701362494 ecr 2701362493], length 4
+00:40:19.072067 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 617, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 0
+00:40:19.072079 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2694:2717, ack 2584, win 561, options [nop,nop,TS val 1019790367 ecr 3648989221], length 23
+00:40:19.072078 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2694, win 554, options [nop,nop,TS val 3648989221 ecr 1019790367], length 0
+00:40:19.072098 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2717:2750, ack 2584, win 561, options [nop,nop,TS val 1019790367 ecr 3648989221], length 33
+00:40:19.072107 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 621:625, ack 171, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 4
+00:40:19.072125 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 625:629, ack 171, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 4
+00:40:19.072126 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 625, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 0
+00:40:19.072142 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 629:630, ack 171, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 1
+00:40:19.072160 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [.], ack 2750, win 554, options [nop,nop,TS val 3648989221 ecr 1019790367], length 0
+00:40:19.072162 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 630, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 0
+00:40:19.072186 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 630:631, ack 171, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 1
+00:40:19.072204 lo    In  IP localhost.34986 > localhost.42343: Flags [P.], seq 631:642, ack 171, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 11
+00:40:19.072216 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 642, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 0
+00:40:19.072283 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 171:173, ack 642, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 2
+00:40:19.072297 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 173:175, ack 642, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 2
+00:40:19.072307 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 175:179, ack 642, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 4
+00:40:19.072317 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 179:183, ack 642, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 4
+00:40:19.072320 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 175, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 0
+00:40:19.072328 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 183:191, ack 642, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 8
+00:40:19.072340 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2584:2610, ack 2750, win 554, options [nop,nop,TS val 3648989221 ecr 1019790367], length 26
+00:40:19.072368 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 191, win 512, options [nop,nop,TS val 2701362494 ecr 2701362494], length 0
+00:40:19.072386 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2610:2648, ack 2750, win 554, options [nop,nop,TS val 3648989221 ecr 1019790367], length 38
+00:40:19.072421 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [.], ack 2648, win 561, options [nop,nop,TS val 1019790367 ecr 3648989221], length 0
+00:40:19.116320 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 191:195, ack 642, win 512, options [nop,nop,TS val 2701362538 ecr 2701362494], length 4
+00:40:19.116366 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 195:199, ack 642, win 512, options [nop,nop,TS val 2701362538 ecr 2701362494], length 4
+00:40:19.116386 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 199:278, ack 642, win 512, options [nop,nop,TS val 2701362538 ecr 2701362494], length 79
+00:40:19.116423 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 199, win 512, options [nop,nop,TS val 2701362538 ecr 2701362538], length 0
+00:40:19.116434 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 278:282, ack 642, win 512, options [nop,nop,TS val 2701362538 ecr 2701362494], length 4
+00:40:19.116458 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 282:286, ack 642, win 512, options [nop,nop,TS val 2701362538 ecr 2701362538], length 4
+00:40:19.116487 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2648:2678, ack 2750, win 554, options [nop,nop,TS val 3648989265 ecr 1019790367], length 30
+00:40:19.116490 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 286:290, ack 642, win 512, options [nop,nop,TS val 2701362538 ecr 2701362538], length 4
+00:40:19.116507 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 290:294, ack 642, win 512, options [nop,nop,TS val 2701362538 ecr 2701362538], length 4
+00:40:19.116551 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 294, win 512, options [nop,nop,TS val 2701362538 ecr 2701362538], length 0
+00:40:19.116580 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2678:2795, ack 2750, win 554, options [nop,nop,TS val 3648989265 ecr 1019790367], length 117
+00:40:19.116705 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [.], ack 2795, win 561, options [nop,nop,TS val 1019790411 ecr 3648989265], length 0
+00:40:19.119402 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 294:298, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362538], length 4
+00:40:19.119430 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 298:302, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362538], length 4
+00:40:19.119442 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 302:336, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362538], length 34
+00:40:19.119465 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 336:338, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362538], length 2
+00:40:19.119476 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 336, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 0
+00:40:19.119477 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 338:340, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362538], length 2
+00:40:19.119487 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 340:344, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362538], length 4
+00:40:19.119503 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 344:348, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 4
+00:40:19.119513 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 348:352, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 4
+00:40:19.119519 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2795:2859, ack 2750, win 554, options [nop,nop,TS val 3648989268 ecr 1019790411], length 64
+00:40:19.119531 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 352:354, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 2
+00:40:19.119541 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 354:356, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 2
+00:40:19.119553 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 356:360, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 4
+00:40:19.119568 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 360, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 0
+00:40:19.119573 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 360:364, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 4
+00:40:19.119580 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2859:2905, ack 2750, win 554, options [nop,nop,TS val 3648989268 ecr 1019790411], length 46
+00:40:19.119598 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2905:2931, ack 2750, win 554, options [nop,nop,TS val 3648989268 ecr 1019790411], length 26
+00:40:19.119599 lo    In  IP localhost.42343 > localhost.34986: Flags [P.], seq 364:368, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 4
+00:40:19.119616 lo    In  IP localhost.34986 > localhost.42343: Flags [.], ack 368, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 0
+00:40:19.119638 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2931:2957, ack 2750, win 554, options [nop,nop,TS val 3648989268 ecr 1019790411], length 26
+00:40:19.119663 lo    In  IP localhost.42343 > localhost.34986: Flags [F.], seq 368, ack 642, win 512, options [nop,nop,TS val 2701362541 ecr 2701362541], length 0
+00:40:19.119689 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [.], ack 2957, win 561, options [nop,nop,TS val 1019790414 ecr 3648989268], length 0
+00:40:19.119749 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [P.], seq 2957:2981, ack 2750, win 554, options [nop,nop,TS val 3648989269 ecr 1019790414], length 24
+00:40:19.119807 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [F.], seq 2981, ack 2750, win 554, options [nop,nop,TS val 3648989269 ecr 1019790414], length 0
+00:40:19.119881 lo    In  IP localhost.34986 > localhost.42343: Flags [F.], seq 642, ack 369, win 512, options [nop,nop,TS val 2701362542 ecr 2701362541], length 0
+00:40:19.119918 lo    In  IP localhost.42343 > localhost.34986: Flags [.], ack 643, win 512, options [nop,nop,TS val 2701362542 ecr 2701362542], length 0
+00:40:19.120056 enp45s0 In  IP 172.17.0.4.59424 > 172.17.0.3.10250: Flags [P.], seq 2750:2774, ack 2982, win 561, options [nop,nop,TS val 1019790415 ecr 3648989269], length 24
+00:40:19.120089 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59424: Flags [R], seq 4003383981, win 0, length 0
+00:40:19.120556 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:19.120823 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:19.255677 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [S], seq 2170821468, win 65476, options [mss 65476,sackOK,TS val 646615993 ecr 0,nop,wscale 7], length 0
+00:40:19.255707 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [S.], seq 2479434114, ack 2170821469, win 65464, options [mss 65476,sackOK,TS val 646615993 ecr 646615993,nop,wscale 7], length 0
+00:40:19.255734 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646615994 ecr 646615993], length 0
+00:40:19.255792 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [S], seq 342031184, win 65476, options [mss 65476,sackOK,TS val 646615994 ecr 0,nop,wscale 7], length 0
+00:40:19.255807 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [S.], seq 4216623232, ack 342031185, win 65464, options [mss 65476,sackOK,TS val 646615994 ecr 646615994,nop,wscale 7], length 0
+00:40:19.255819 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646615994 ecr 646615994], length 0
+00:40:19.256021 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646615994 ecr 646615994], length 275
+00:40:19.256027 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [.], ack 276, win 510, options [nop,nop,TS val 646615994 ecr 646615994], length 0
+00:40:19.256609 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646615994 ecr 646615993], length 275
+00:40:19.256625 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [.], ack 276, win 510, options [nop,nop,TS val 646615994 ecr 646615994], length 0
+00:40:19.258520 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646615996 ecr 646615994], length 2341
+00:40:19.258541 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646615996 ecr 646615996], length 0
+00:40:19.259084 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646615997 ecr 646615994], length 2341
+00:40:19.259098 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646615997 ecr 646615997], length 0
+00:40:19.259407 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646615997 ecr 646615996], length 94
+00:40:19.259464 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646615997 ecr 646615996], length 86
+00:40:19.259493 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [.], ack 456, win 512, options [nop,nop,TS val 646615997 ecr 646615997], length 0
+00:40:19.259515 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [P.], seq 456:528, ack 2342, win 706, options [nop,nop,TS val 646615997 ecr 646615997], length 72
+00:40:19.259645 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [P.], seq 2342:2403, ack 528, win 512, options [nop,nop,TS val 646615997 ecr 646615997], length 61
+00:40:19.259686 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [P.], seq 2403:2438, ack 528, win 512, options [nop,nop,TS val 646615997 ecr 646615997], length 35
+00:40:19.259704 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [.], ack 2438, win 706, options [nop,nop,TS val 646615997 ecr 646615997], length 0
+00:40:19.259743 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [P.], seq 528:559, ack 2438, win 706, options [nop,nop,TS val 646615998 ecr 646615997], length 31
+00:40:19.259745 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [P.], seq 2438:2469, ack 528, win 512, options [nop,nop,TS val 646615998 ecr 646615997], length 31
+00:40:19.260119 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [P.], seq 2469:2508, ack 559, win 512, options [nop,nop,TS val 646615998 ecr 646615998], length 39
+00:40:19.260157 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [.], ack 2508, win 706, options [nop,nop,TS val 646615998 ecr 646615998], length 0
+00:40:19.260198 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [P.], seq 2508:2660, ack 559, win 512, options [nop,nop,TS val 646615998 ecr 646615998], length 152
+00:40:19.260257 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [P.], seq 2660:2693, ack 559, win 512, options [nop,nop,TS val 646615998 ecr 646615998], length 33
+00:40:19.260274 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [.], ack 2693, win 718, options [nop,nop,TS val 646615998 ecr 646615998], length 0
+00:40:19.260309 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [P.], seq 559:583, ack 2693, win 718, options [nop,nop,TS val 646615998 ecr 646615998], length 24
+00:40:19.260334 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [F.], seq 583, ack 2693, win 718, options [nop,nop,TS val 646615998 ecr 646615998], length 0
+00:40:19.260369 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55982: Flags [P.], seq 2693:2717, ack 584, win 512, options [nop,nop,TS val 646615998 ecr 646615998], length 24
+00:40:19.260377 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646615998 ecr 646615997], length 94
+00:40:19.260392 lo    In  IP6 ip6-localhost.55982 > ip6-localhost.10350: Flags [R], seq 342031768, win 0, length 0
+00:40:19.260438 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646615998 ecr 646615997], length 86
+00:40:19.260492 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [.], ack 456, win 512, options [nop,nop,TS val 646615998 ecr 646615998], length 0
+00:40:19.260493 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [P.], seq 456:527, ack 2342, win 706, options [nop,nop,TS val 646615998 ecr 646615997], length 71
+00:40:19.260522 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [P.], seq 2342:2403, ack 527, win 512, options [nop,nop,TS val 646615998 ecr 646615998], length 61
+00:40:19.260564 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [P.], seq 2403:2447, ack 527, win 512, options [nop,nop,TS val 646615998 ecr 646615998], length 44
+00:40:19.260593 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [.], ack 2447, win 706, options [nop,nop,TS val 646615998 ecr 646615998], length 0
+00:40:19.260609 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [P.], seq 527:558, ack 2447, win 706, options [nop,nop,TS val 646615998 ecr 646615998], length 31
+00:40:19.260955 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [P.], seq 2447:2486, ack 558, win 512, options [nop,nop,TS val 646615999 ecr 646615998], length 39
+00:40:19.261026 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [P.], seq 2486:2639, ack 558, win 512, options [nop,nop,TS val 646615999 ecr 646615998], length 153
+00:40:19.261048 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [.], ack 2639, win 718, options [nop,nop,TS val 646615999 ecr 646615999], length 0
+00:40:19.261080 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [P.], seq 2639:2672, ack 558, win 512, options [nop,nop,TS val 646615999 ecr 646615999], length 33
+00:40:19.261150 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [P.], seq 558:582, ack 2672, win 718, options [nop,nop,TS val 646615999 ecr 646615999], length 24
+00:40:19.261177 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [F.], seq 582, ack 2672, win 718, options [nop,nop,TS val 646615999 ecr 646615999], length 0
+00:40:19.261205 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.55976: Flags [P.], seq 2672:2696, ack 583, win 512, options [nop,nop,TS val 646615999 ecr 646615999], length 24
+00:40:19.261224 lo    In  IP6 ip6-localhost.55976 > ip6-localhost.10350: Flags [R], seq 2170822051, win 0, length 0
+00:40:19.834149 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:19.834384 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:19.902102 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 1, length 64
+00:40:19.902131 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 1, length 64
+00:40:19.902159 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 689, seq 1, length 64
+00:40:20.009658 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 689, seq 1, length 64
+00:40:20.009683 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 1, length 64
+00:40:20.009706 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 1, length 64
+00:40:20.834181 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:20.834487 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:20.902322 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 2, length 64
+00:40:20.902350 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 2, length 64
+00:40:20.902377 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 689, seq 2, length 64
+00:40:20.981984 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 689, seq 2, length 64
+00:40:20.982008 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 2, length 64
+00:40:20.982024 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 2, length 64
+00:40:21.089634 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 18667:18766, ack 2476, win 9411, options [nop,nop,TS val 1019792384 ecr 3648989213], length 99
+00:40:21.120626 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:21.120886 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:21.130784 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 18766, win 9801, options [nop,nop,TS val 3648991280 ecr 1019792384], length 0
+00:40:21.206759 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:21.207013 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:21.414641 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 18766:18902, ack 2476, win 9411, options [nop,nop,TS val 1019792709 ecr 3648991280], length 136
+00:40:21.414676 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 18902, win 9801, options [nop,nop,TS val 3648991563 ecr 1019792709], length 0
+00:40:21.834314 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:21.834570 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:21.902529 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 3, length 64
+00:40:21.902555 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 3, length 64
+00:40:21.902577 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 689, seq 3, length 64
+00:40:21.962611 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 689, seq 3, length 64
+00:40:21.962633 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 3, length 64
+00:40:21.962649 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 3, length 64
+00:40:22.834529 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:22.834897 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:22.902703 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 4, length 64
+00:40:22.902744 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 689, seq 4, length 64
+00:40:22.902776 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 689, seq 4, length 64
+00:40:23.003895 enp45s0 Out IP 172.17.0.3.51316 > 172.17.0.2.10351: Flags [S], seq 189326392, win 64240, options [mss 1460,sackOK,TS val 3254366231 ecr 0,nop,wscale 7], length 0
+00:40:23.003939 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.51316: Flags [S.], seq 4192258501, ack 189326393, win 65160, options [mss 1460,sackOK,TS val 1484072229 ecr 3254366231,nop,wscale 7], length 0
+00:40:23.003961 enp45s0 Out IP 172.17.0.3.51316 > 172.17.0.2.10351: Flags [.], ack 1, win 502, options [nop,nop,TS val 3254366231 ecr 1484072229], length 0
+00:40:23.004184 enp45s0 Out IP 172.17.0.3.51316 > 172.17.0.2.10351: Flags [P.], seq 1:238, ack 1, win 502, options [nop,nop,TS val 3254366231 ecr 1484072229], length 237
+00:40:23.004211 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.51316: Flags [.], ack 238, win 508, options [nop,nop,TS val 1484072229 ecr 3254366231], length 0
+00:40:23.004224 enp45s0 In  IP 172.17.0.4.47968 > 172.17.0.3.10351: Flags [S], seq 4087267337, win 64240, options [mss 1460,sackOK,TS val 1019794299 ecr 0,nop,wscale 7], length 0
+00:40:23.004263 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.47968: Flags [S.], seq 4181435895, ack 4087267338, win 65160, options [mss 1460,sackOK,TS val 3648993153 ecr 1019794299,nop,wscale 7], length 0
+00:40:23.004288 enp45s0 In  IP 172.17.0.4.47968 > 172.17.0.3.10351: Flags [.], ack 1, win 502, options [nop,nop,TS val 1019794299 ecr 3648993153], length 0
+00:40:23.004419 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.51316: Flags [P.], seq 1:238, ack 238, win 508, options [nop,nop,TS val 1484072229 ecr 3254366231], length 237
+00:40:23.004439 enp45s0 Out IP 172.17.0.3.51316 > 172.17.0.2.10351: Flags [.], ack 238, win 501, options [nop,nop,TS val 3254366231 ecr 1484072229], length 0
+00:40:23.004479 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.51316: Flags [F.], seq 238, ack 238, win 508, options [nop,nop,TS val 1484072229 ecr 3254366231], length 0
+00:40:23.004515 enp45s0 In  IP 172.17.0.4.47968 > 172.17.0.3.10351: Flags [P.], seq 1:238, ack 1, win 502, options [nop,nop,TS val 1019794299 ecr 3648993153], length 237
+00:40:23.004529 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.47968: Flags [.], ack 238, win 508, options [nop,nop,TS val 3648993153 ecr 1019794299], length 0
+00:40:23.004554 enp45s0 Out IP 172.17.0.3.51316 > 172.17.0.2.10351: Flags [F.], seq 238, ack 239, win 501, options [nop,nop,TS val 3254366231 ecr 1484072229], length 0
+00:40:23.004588 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.51316: Flags [.], ack 239, win 508, options [nop,nop,TS val 1484072229 ecr 3254366231], length 0
+00:40:23.004786 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.47968: Flags [P.], seq 1:238, ack 238, win 508, options [nop,nop,TS val 3648993154 ecr 1019794299], length 237
+00:40:23.004809 enp45s0 In  IP 172.17.0.4.47968 > 172.17.0.3.10351: Flags [.], ack 238, win 501, options [nop,nop,TS val 1019794300 ecr 3648993154], length 0
+00:40:23.004832 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.47968: Flags [F.], seq 238, ack 238, win 508, options [nop,nop,TS val 3648993154 ecr 1019794300], length 0
+00:40:23.004910 enp45s0 In  IP 172.17.0.4.47968 > 172.17.0.3.10351: Flags [F.], seq 238, ack 239, win 501, options [nop,nop,TS val 1019794300 ecr 3648993154], length 0
+00:40:23.004927 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.47968: Flags [.], ack 239, win 508, options [nop,nop,TS val 3648993154 ecr 1019794300], length 0
+00:40:23.052066 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 689, seq 4, length 64
+00:40:23.052089 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 4, length 64
+00:40:23.052107 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 689, seq 4, length 64
+00:40:23.121159 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:23.121377 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:23.205942 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:23.206237 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:24.004744 ?     Out ARP, Request who-has 10.244.2.2 tell 10.244.2.1, length 28
+00:40:24.005010 ?     Out ARP, Request who-has 10.244.2.2 tell 10.244.2.1, length 28
+00:40:24.005032 ?     P   ARP, Reply 10.244.2.2 is-at ee:e3:57:26:04:e7 (oui Unknown), length 28
+00:40:24.005196 ?     In  ARP, Reply 10.244.2.2 is-at ee:e3:57:26:04:e7 (oui Unknown), length 28
+00:40:24.130370 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 2476:2516, ack 18902, win 9801, options [nop,nop,TS val 3648994279 ecr 1019792709], length 40
+00:40:24.130439 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 2516:3062, ack 18902, win 9801, options [nop,nop,TS val 3648994279 ecr 1019792709], length 546
+00:40:24.130507 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 3062, win 9411, options [nop,nop,TS val 1019795425 ecr 3648994279], length 0
+00:40:24.140282 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 18902:18992, ack 3062, win 9411, options [nop,nop,TS val 1019795435 ecr 3648994279], length 90
+00:40:24.140321 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 18992, win 9801, options [nop,nop,TS val 3648994289 ecr 1019795435], length 0
+00:40:24.140441 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 18992:19538, ack 3062, win 9411, options [nop,nop,TS val 1019795435 ecr 3648994289], length 546
+00:40:24.140454 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 19538, win 9799, options [nop,nop,TS val 3648994289 ecr 1019795435], length 0
+00:40:24.834155 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:24.834427 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:25.001158 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3062:3100, ack 19538, win 9801, options [nop,nop,TS val 3648995150 ecr 1019795435], length 38
+00:40:25.002920 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 19538:19627, ack 3100, win 9411, options [nop,nop,TS val 1019796298 ecr 3648995150], length 89
+00:40:25.002942 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 19627, win 9801, options [nop,nop,TS val 3648995152 ecr 1019796298], length 0
+00:40:25.003001 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 19627:24215, ack 3100, win 9411, options [nop,nop,TS val 1019796298 ecr 3648995152], length 4588
+00:40:25.003011 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 24215, win 9779, options [nop,nop,TS val 3648995152 ecr 1019796298], length 0
+00:40:25.003172 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3100:3135, ack 24215, win 9801, options [nop,nop,TS val 3648995152 ecr 1019796298], length 35
+00:40:25.003181 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 24215:24246, ack 3100, win 9411, options [nop,nop,TS val 1019796298 ecr 3648995152], length 31
+00:40:25.003236 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3135:3170, ack 24246, win 9801, options [nop,nop,TS val 3648995152 ecr 1019796298], length 35
+00:40:25.003283 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 3170, win 9411, options [nop,nop,TS val 1019796298 ecr 3648995152], length 0
+00:40:25.056712 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 0, length 64
+00:40:25.056767 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 0, length 64
+00:40:25.056821 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 691, seq 0, length 64
+00:40:25.110600 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 691, seq 0, length 64
+00:40:25.110624 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 0, length 64
+00:40:25.110641 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 0, length 64
+00:40:25.121057 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:25.121279 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:25.206062 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:25.206428 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:25.834709 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:25.835074 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:26.056938 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 1, length 64
+00:40:26.056965 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 1, length 64
+00:40:26.056990 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 691, seq 1, length 64
+00:40:26.120202 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 691, seq 1, length 64
+00:40:26.120226 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 1, length 64
+00:40:26.120244 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 1, length 64
+00:40:26.834632 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:26.834888 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:27.057129 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 2, length 64
+00:40:27.057157 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 2, length 64
+00:40:27.057185 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 691, seq 2, length 64
+00:40:27.121446 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:27.121663 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:27.252799 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 691, seq 2, length 64
+00:40:27.252821 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 2, length 64
+00:40:27.252837 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 2, length 64
+00:40:27.532260 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 4048:4147, ack 36, win 615, options [nop,nop,TS val 1019798827 ecr 3865605187], length 99
+00:40:27.532314 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 4147, win 12435, options [nop,nop,TS val 3865621633 ecr 1019798827], length 0
+00:40:27.532376 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 4147:4246, ack 36, win 615, options [nop,nop,TS val 1019798827 ecr 3865621633], length 99
+00:40:27.532391 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 4246, win 12435, options [nop,nop,TS val 3865621633 ecr 1019798827], length 0
+00:40:27.532480 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [P.], seq 36:71, ack 4246, win 12435, options [nop,nop,TS val 3865621633 ecr 1019798827], length 35
+00:40:27.532507 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [.], ack 71, win 615, options [nop,nop,TS val 1019798827 ecr 3865621633], length 0
+00:40:27.818241 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 4246:4382, ack 71, win 615, options [nop,nop,TS val 1019799113 ecr 3865621633], length 136
+00:40:27.835216 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:27.835513 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:27.858800 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 4382, win 12435, options [nop,nop,TS val 3865621960 ecr 1019799113], length 0
+00:40:28.057320 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 3, length 64
+00:40:28.057352 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 3, length 64
+00:40:28.057386 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 691, seq 3, length 64
+00:40:28.132252 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 691, seq 3, length 64
+00:40:28.132277 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 3, length 64
+00:40:28.132295 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 3, length 64
+00:40:28.206577 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:28.206949 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:28.834562 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:28.834879 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:28.914542 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 4382:4413, ack 71, win 615, options [nop,nop,TS val 1019800209 ecr 3865621960], length 31
+00:40:28.914596 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 4413, win 12435, options [nop,nop,TS val 3865623015 ecr 1019800209], length 0
+00:40:28.915146 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [P.], seq 71:233, ack 4413, win 12435, options [nop,nop,TS val 3865623016 ecr 1019800209], length 162
+00:40:28.915190 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [.], ack 233, win 615, options [nop,nop,TS val 1019800210 ecr 3865623016], length 0
+00:40:28.917105 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 4413:4502, ack 233, win 615, options [nop,nop,TS val 1019800212 ecr 3865623016], length 89
+00:40:28.957770 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 4502, win 12435, options [nop,nop,TS val 3865623059 ecr 1019800212], length 0
+00:40:29.057544 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 4, length 64
+00:40:29.057570 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 691, seq 4, length 64
+00:40:29.057597 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 691, seq 4, length 64
+00:40:29.121379 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:29.121642 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:29.137470 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 691, seq 4, length 64
+00:40:29.137494 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 4, length 64
+00:40:29.137511 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 691, seq 4, length 64
+00:40:29.255863 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [S], seq 2122110015, win 65476, options [mss 65476,sackOK,TS val 646625994 ecr 0,nop,wscale 7], length 0
+00:40:29.255863 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [S], seq 411533365, win 65476, options [mss 65476,sackOK,TS val 646625994 ecr 0,nop,wscale 7], length 0
+00:40:29.255898 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [S.], seq 4272283928, ack 2122110016, win 65464, options [mss 65476,sackOK,TS val 646625994 ecr 646625994,nop,wscale 7], length 0
+00:40:29.255900 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [S.], seq 4111947287, ack 411533366, win 65464, options [mss 65476,sackOK,TS val 646625994 ecr 646625994,nop,wscale 7], length 0
+00:40:29.255923 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646625994 ecr 646625994], length 0
+00:40:29.255923 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646625994 ecr 646625994], length 0
+00:40:29.256477 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646625994 ecr 646625994], length 275
+00:40:29.256481 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646625994 ecr 646625994], length 275
+00:40:29.256498 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [.], ack 276, win 510, options [nop,nop,TS val 646625994 ecr 646625994], length 0
+00:40:29.256505 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [.], ack 276, win 510, options [nop,nop,TS val 646625994 ecr 646625994], length 0
+00:40:29.261056 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646625999 ecr 646625994], length 2341
+00:40:29.261079 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646625999 ecr 646625999], length 0
+00:40:29.261448 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646625999 ecr 646625994], length 2341
+00:40:29.261468 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646625999 ecr 646625999], length 0
+00:40:29.262851 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646626001 ecr 646625999], length 94
+00:40:29.262976 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646626001 ecr 646625999], length 86
+00:40:29.263085 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [P.], seq 456:528, ack 2342, win 706, options [nop,nop,TS val 646626001 ecr 646625999], length 72
+00:40:29.263090 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [.], ack 456, win 512, options [nop,nop,TS val 646626001 ecr 646626001], length 0
+00:40:29.263266 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [P.], seq 2342:2403, ack 528, win 512, options [nop,nop,TS val 646626001 ecr 646626001], length 61
+00:40:29.263334 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [P.], seq 2403:2447, ack 528, win 512, options [nop,nop,TS val 646626001 ecr 646626001], length 44
+00:40:29.263359 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [P.], seq 528:559, ack 2403, win 706, options [nop,nop,TS val 646626001 ecr 646626001], length 31
+00:40:29.263708 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [P.], seq 2447:2486, ack 559, win 512, options [nop,nop,TS val 646626001 ecr 646626001], length 39
+00:40:29.263775 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [.], ack 2486, win 706, options [nop,nop,TS val 646626002 ecr 646626001], length 0
+00:40:29.263852 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [P.], seq 2486:2638, ack 559, win 512, options [nop,nop,TS val 646626002 ecr 646626002], length 152
+00:40:29.263902 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [P.], seq 2638:2671, ack 559, win 512, options [nop,nop,TS val 646626002 ecr 646626002], length 33
+00:40:29.263956 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [.], ack 2671, win 718, options [nop,nop,TS val 646626002 ecr 646626002], length 0
+00:40:29.264018 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [P.], seq 559:583, ack 2671, win 718, options [nop,nop,TS val 646626002 ecr 646626002], length 24
+00:40:29.264067 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [F.], seq 583, ack 2671, win 718, options [nop,nop,TS val 646626002 ecr 646626002], length 0
+00:40:29.264099 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50720: Flags [P.], seq 2671:2695, ack 584, win 512, options [nop,nop,TS val 646626002 ecr 646626002], length 24
+00:40:29.264126 lo    In  IP6 ip6-localhost.50720 > ip6-localhost.10350: Flags [R], seq 2122110599, win 0, length 0
+00:40:29.264485 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646626002 ecr 646625999], length 94
+00:40:29.264594 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646626002 ecr 646625999], length 86
+00:40:29.264644 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [.], ack 456, win 512, options [nop,nop,TS val 646626002 ecr 646626002], length 0
+00:40:29.264688 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [P.], seq 456:527, ack 2342, win 706, options [nop,nop,TS val 646626002 ecr 646626002], length 71
+00:40:29.264690 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [P.], seq 2342:2403, ack 456, win 512, options [nop,nop,TS val 646626002 ecr 646626002], length 61
+00:40:29.264759 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [P.], seq 2403:2447, ack 527, win 512, options [nop,nop,TS val 646626003 ecr 646626002], length 44
+00:40:29.264780 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [P.], seq 527:558, ack 2447, win 706, options [nop,nop,TS val 646626003 ecr 646626002], length 31
+00:40:29.265195 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [P.], seq 2447:2486, ack 558, win 512, options [nop,nop,TS val 646626003 ecr 646626003], length 39
+00:40:29.265284 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [P.], seq 2486:2638, ack 558, win 512, options [nop,nop,TS val 646626003 ecr 646626003], length 152
+00:40:29.265310 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [.], ack 2638, win 718, options [nop,nop,TS val 646626003 ecr 646626003], length 0
+00:40:29.265340 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [P.], seq 2638:2671, ack 558, win 512, options [nop,nop,TS val 646626003 ecr 646626003], length 33
+00:40:29.265393 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [P.], seq 558:582, ack 2671, win 718, options [nop,nop,TS val 646626003 ecr 646626003], length 24
+00:40:29.265435 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [F.], seq 582, ack 2671, win 718, options [nop,nop,TS val 646626003 ecr 646626003], length 0
+00:40:29.265464 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.50706: Flags [P.], seq 2671:2695, ack 583, win 512, options [nop,nop,TS val 646626003 ecr 646626003], length 24
+00:40:29.265489 lo    In  IP6 ip6-localhost.50706 > ip6-localhost.10350: Flags [R], seq 411533948, win 0, length 0
+00:40:29.621672 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 24246:24345, ack 3170, win 9411, options [nop,nop,TS val 1019800916 ecr 3648995152], length 99
+00:40:29.661745 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 24345, win 9801, options [nop,nop,TS val 3648999811 ecr 1019800916], length 0
+00:40:29.834665 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:29.834903 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:30.121068 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:30.121405 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:30.148728 enp45s0 Out ARP, Request who-has ubuntu tell 172.17.0.3, length 28
+00:40:30.148754 ?     P   ARP, Request who-has 10.244.2.1 tell 10.244.2.2, length 28
+00:40:30.148856 enp45s0 In  ARP, Reply ubuntu is-at 4e:02:f0:70:1b:d8 (oui Unknown), length 28
+00:40:30.149078 ?     In  ARP, Request who-has 10.244.2.1 tell 10.244.2.2, length 28
+00:40:30.149094 ?     Out ARP, Reply 10.244.2.1 is-at 06:56:ef:5f:89:39 (oui Unknown), length 28
+00:40:30.149253 ?     Out ARP, Reply 10.244.2.1 is-at 06:56:ef:5f:89:39 (oui Unknown), length 28
+00:40:30.205870 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:30.206172 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:30.834454 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:30.834786 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:31.066778 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 4502:4638, ack 233, win 615, options [nop,nop,TS val 1019802362 ecr 3865623059], length 136
+00:40:31.066823 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 4638, win 12435, options [nop,nop,TS val 3865625168 ecr 1019802362], length 0
+00:40:31.142217 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 0, length 64
+00:40:31.142257 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 0, length 64
+00:40:31.142308 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 693, seq 0, length 64
+00:40:31.217919 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 693, seq 0, length 64
+00:40:31.217942 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 0, length 64
+00:40:31.217961 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 0, length 64
+00:40:31.411914 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 24345:24461, ack 3170, win 9411, options [nop,nop,TS val 1019802707 ecr 3648999811], length 116
+00:40:31.411947 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 24461, win 9801, options [nop,nop,TS val 3649001561 ecr 1019802707], length 0
+00:40:31.684750 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [.], ack 1708, win 554, options [nop,nop,TS val 3649001834 ecr 1019787831], length 0
+00:40:31.684790 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 3305, win 561, options [nop,nop,TS val 1019802980 ecr 3648986643], length 0
+00:40:31.834831 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:31.835153 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:31.910819 enp45s0 Out IP 172.17.0.3.55142 > 172.17.0.4.10349: Flags [P.], seq 774024095:774024134, ack 2375529962, win 601, options [nop,nop,TS val 3649002060 ecr 1019773205], length 39
+00:40:31.911048 enp45s0 In  IP 172.17.0.4.10349 > 172.17.0.3.55142: Flags [P.], seq 1:40, ack 39, win 601, options [nop,nop,TS val 1019803206 ecr 3649002060], length 39
+00:40:31.911075 enp45s0 Out IP 172.17.0.3.55142 > 172.17.0.4.10349: Flags [.], ack 40, win 601, options [nop,nop,TS val 3649002060 ecr 1019803206], length 0
+00:40:32.099453 enp45s0 Out IP 172.17.0.3.49984 > 172.17.0.4.6443: Flags [P.], seq 1208412891:1208412930, ack 1516677998, win 635, options [nop,nop,TS val 3649002248 ecr 1019773393], length 39
+00:40:32.099627 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49984: Flags [P.], seq 1:40, ack 39, win 536, options [nop,nop,TS val 1019803394 ecr 3649002248], length 39
+00:40:32.099648 enp45s0 Out IP 172.17.0.3.49984 > 172.17.0.4.6443: Flags [.], ack 40, win 635, options [nop,nop,TS val 3649002248 ecr 1019803394], length 0
+00:40:32.121375 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:32.121594 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:32.142457 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 1, length 64
+00:40:32.142485 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 1, length 64
+00:40:32.142511 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 693, seq 1, length 64
+00:40:32.205668 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 693, seq 1, length 64
+00:40:32.205691 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 1, length 64
+00:40:32.205708 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 1, length 64
+00:40:32.206707 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:32.206992 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:32.834271 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:32.834537 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:33.142653 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 2, length 64
+00:40:33.142678 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 2, length 64
+00:40:33.142699 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 693, seq 2, length 64
+00:40:33.206942 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:33.207199 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:33.397394 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 693, seq 2, length 64
+00:40:33.397416 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 2, length 64
+00:40:33.397433 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 2, length 64
+00:40:33.834208 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:33.834484 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:34.142841 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 3, length 64
+00:40:34.142881 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 3, length 64
+00:40:34.142912 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 693, seq 3, length 64
+00:40:34.211160 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 693, seq 3, length 64
+00:40:34.211181 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 3, length 64
+00:40:34.211199 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 3, length 64
+00:40:34.450186 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3170:3210, ack 24461, win 9801, options [nop,nop,TS val 3649004599 ecr 1019802707], length 40
+00:40:34.450255 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3210:3757, ack 24461, win 9801, options [nop,nop,TS val 3649004599 ecr 1019802707], length 547
+00:40:34.450319 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 3757, win 9411, options [nop,nop,TS val 1019805745 ecr 3649004599], length 0
+00:40:34.478218 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 24461:24555, ack 3757, win 9411, options [nop,nop,TS val 1019805773 ecr 3649004599], length 94
+00:40:34.478245 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 24555, win 9801, options [nop,nop,TS val 3649004627 ecr 1019805773], length 0
+00:40:34.478298 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 24555:25102, ack 3757, win 9411, options [nop,nop,TS val 1019805773 ecr 3649004627], length 547
+00:40:34.478306 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 25102, win 9799, options [nop,nop,TS val 3649004627 ecr 1019805773], length 0
+00:40:34.554841 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 4638:4792, ack 233, win 615, options [nop,nop,TS val 1019805850 ecr 3865625168], length 154
+00:40:34.554898 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 4792, win 12435, options [nop,nop,TS val 3865628656 ecr 1019805850], length 0
+00:40:34.835112 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:34.835458 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:35.120556 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:35.120785 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:35.143048 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 4, length 64
+00:40:35.143077 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 693, seq 4, length 64
+00:40:35.143102 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 693, seq 4, length 64
+00:40:35.207162 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3757:3795, ack 25102, win 9801, options [nop,nop,TS val 3649005356 ecr 1019805773], length 38
+00:40:35.209954 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 25102:25191, ack 3795, win 9411, options [nop,nop,TS val 1019806505 ecr 3649005356], length 89
+00:40:35.209995 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 25191, win 9801, options [nop,nop,TS val 3649005359 ecr 1019806505], length 0
+00:40:35.210097 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 25191:29779, ack 3795, win 9411, options [nop,nop,TS val 1019806505 ecr 3649005359], length 4588
+00:40:35.210115 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 29779, win 9779, options [nop,nop,TS val 3649005359 ecr 1019806505], length 0
+00:40:35.210347 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3795:3830, ack 29779, win 9801, options [nop,nop,TS val 3649005359 ecr 1019806505], length 35
+00:40:35.210372 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 29779:29810, ack 3795, win 9411, options [nop,nop,TS val 1019806505 ecr 3649005359], length 31
+00:40:35.210435 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3830:3865, ack 29810, win 9801, options [nop,nop,TS val 3649005359 ecr 1019806505], length 35
+00:40:35.210487 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 3865, win 9411, options [nop,nop,TS val 1019806505 ecr 3649005359], length 0
+00:40:35.345240 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 693, seq 4, length 64
+00:40:35.345261 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 4, length 64
+00:40:35.345279 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 693, seq 4, length 64
+00:40:35.834508 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:35.834894 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:36.206418 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:36.206656 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:36.834185 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:36.834483 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:37.121381 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:37.121701 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:37.206151 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:37.206428 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:37.349962 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 0, length 64
+00:40:37.350001 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 0, length 64
+00:40:37.350052 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 695, seq 0, length 64
+00:40:37.431660 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 695, seq 0, length 64
+00:40:37.431683 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 0, length 64
+00:40:37.431701 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 0, length 64
+00:40:37.704546 enp45s0 Out IP 172.17.0.3.27597 > 172.17.0.4.6443: Flags [P.], seq 83:122, ack 5971, win 607, options [nop,nop,TS val 3865631805 ecr 1019778999], length 39
+00:40:37.704778 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.27597: Flags [P.], seq 5971:6010, ack 122, win 578, options [nop,nop,TS val 1019808999 ecr 3865631805], length 39
+00:40:37.746775 enp45s0 Out IP 172.17.0.3.27597 > 172.17.0.4.6443: Flags [.], ack 6010, win 607, options [nop,nop,TS val 3865631848 ecr 1019808999], length 0
+00:40:37.835167 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:37.835404 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:38.004900 enp45s0 Out IP 172.17.0.3.34430 > 172.17.0.2.10351: Flags [S], seq 3491168491, win 64240, options [mss 1460,sackOK,TS val 3254381232 ecr 0,nop,wscale 7], length 0
+00:40:38.004966 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.34430: Flags [S.], seq 2814220522, ack 3491168492, win 65160, options [mss 1460,sackOK,TS val 1484087230 ecr 3254381232,nop,wscale 7], length 0
+00:40:38.004991 enp45s0 Out IP 172.17.0.3.34430 > 172.17.0.2.10351: Flags [.], ack 1, win 502, options [nop,nop,TS val 3254381232 ecr 1484087230], length 0
+00:40:38.005218 enp45s0 Out IP 172.17.0.3.34430 > 172.17.0.2.10351: Flags [P.], seq 1:238, ack 1, win 502, options [nop,nop,TS val 3254381232 ecr 1484087230], length 237
+00:40:38.005249 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.34430: Flags [.], ack 238, win 508, options [nop,nop,TS val 1484087230 ecr 3254381232], length 0
+00:40:38.005289 enp45s0 In  IP 172.17.0.4.45806 > 172.17.0.3.10351: Flags [S], seq 2143842728, win 64240, options [mss 1460,sackOK,TS val 1019809300 ecr 0,nop,wscale 7], length 0
+00:40:38.005289 enp45s0 In  IP 172.17.0.2.59418 > 172.17.0.3.10351: Flags [S], seq 2900600837, win 64240, options [mss 1460,sackOK,TS val 1484087230 ecr 0,nop,wscale 7], length 0
+00:40:38.005334 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.45806: Flags [S.], seq 2911937552, ack 2143842729, win 65160, options [mss 1460,sackOK,TS val 3649008154 ecr 1019809300,nop,wscale 7], length 0
+00:40:38.005334 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.59418: Flags [S.], seq 2891416806, ack 2900600838, win 65160, options [mss 1460,sackOK,TS val 3254381232 ecr 1484087230,nop,wscale 7], length 0
+00:40:38.005369 enp45s0 In  IP 172.17.0.4.45806 > 172.17.0.3.10351: Flags [.], ack 1, win 502, options [nop,nop,TS val 1019809300 ecr 3649008154], length 0
+00:40:38.005369 enp45s0 In  IP 172.17.0.2.59418 > 172.17.0.3.10351: Flags [.], ack 1, win 502, options [nop,nop,TS val 1484087230 ecr 3254381232], length 0
+00:40:38.005523 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.34430: Flags [P.], seq 1:238, ack 238, win 508, options [nop,nop,TS val 1484087230 ecr 3254381232], length 237
+00:40:38.005553 enp45s0 Out IP 172.17.0.3.34430 > 172.17.0.2.10351: Flags [.], ack 238, win 501, options [nop,nop,TS val 3254381232 ecr 1484087230], length 0
+00:40:38.005605 enp45s0 In  IP 172.17.0.2.59418 > 172.17.0.3.10351: Flags [P.], seq 1:238, ack 1, win 502, options [nop,nop,TS val 1484087230 ecr 3254381232], length 237
+00:40:38.005615 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.34430: Flags [F.], seq 238, ack 238, win 508, options [nop,nop,TS val 1484087230 ecr 3254381232], length 0
+00:40:38.005623 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.59418: Flags [.], ack 238, win 508, options [nop,nop,TS val 3254381232 ecr 1484087230], length 0
+00:40:38.005701 enp45s0 In  IP 172.17.0.4.45806 > 172.17.0.3.10351: Flags [P.], seq 1:237, ack 1, win 502, options [nop,nop,TS val 1019809300 ecr 3649008154], length 236
+00:40:38.005760 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.45806: Flags [.], ack 237, win 508, options [nop,nop,TS val 3649008154 ecr 1019809300], length 0
+00:40:38.005798 enp45s0 Out IP 172.17.0.3.34430 > 172.17.0.2.10351: Flags [F.], seq 238, ack 239, win 501, options [nop,nop,TS val 3254381233 ecr 1484087230], length 0
+00:40:38.005848 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.34430: Flags [.], ack 239, win 508, options [nop,nop,TS val 1484087231 ecr 3254381233], length 0
+00:40:38.005934 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.59418: Flags [P.], seq 1:238, ack 238, win 508, options [nop,nop,TS val 3254381233 ecr 1484087230], length 237
+00:40:38.005964 enp45s0 In  IP 172.17.0.2.59418 > 172.17.0.3.10351: Flags [.], ack 238, win 501, options [nop,nop,TS val 1484087231 ecr 3254381233], length 0
+00:40:38.005994 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.59418: Flags [F.], seq 238, ack 238, win 508, options [nop,nop,TS val 3254381233 ecr 1484087231], length 0
+00:40:38.006059 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.45806: Flags [P.], seq 1:238, ack 237, win 508, options [nop,nop,TS val 3649008155 ecr 1019809300], length 237
+00:40:38.006095 enp45s0 In  IP 172.17.0.2.59418 > 172.17.0.3.10351: Flags [F.], seq 238, ack 239, win 501, options [nop,nop,TS val 1484087231 ecr 3254381233], length 0
+00:40:38.006115 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.59418: Flags [.], ack 239, win 508, options [nop,nop,TS val 3254381233 ecr 1484087231], length 0
+00:40:38.006118 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.45806: Flags [F.], seq 238, ack 237, win 508, options [nop,nop,TS val 3649008155 ecr 1019809300], length 0
+00:40:38.006196 enp45s0 In  IP 172.17.0.4.45806 > 172.17.0.3.10351: Flags [.], ack 239, win 501, options [nop,nop,TS val 1019809301 ecr 3649008155], length 0
+00:40:38.006368 enp45s0 In  IP 172.17.0.4.45806 > 172.17.0.3.10351: Flags [F.], seq 237, ack 239, win 501, options [nop,nop,TS val 1019809301 ecr 3649008155], length 0
+00:40:38.006391 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.45806: Flags [.], ack 238, win 508, options [nop,nop,TS val 3649008155 ecr 1019809301], length 0
+00:40:38.218342 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 29810:29926, ack 3865, win 9411, options [nop,nop,TS val 1019809513 ecr 3649005359], length 116
+00:40:38.259753 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 29926, win 9801, options [nop,nop,TS val 3649008409 ecr 1019809513], length 0
+00:40:38.350173 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 1, length 64
+00:40:38.350201 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 1, length 64
+00:40:38.350224 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 695, seq 1, length 64
+00:40:38.444536 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 695, seq 1, length 64
+00:40:38.444558 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 1, length 64
+00:40:38.444576 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 1, length 64
+00:40:38.834444 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:38.834685 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:39.121480 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:39.121775 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:39.255137 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [S], seq 1100715067, win 65476, options [mss 65476,sackOK,TS val 646635993 ecr 0,nop,wscale 7], length 0
+00:40:39.255153 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [S], seq 2107534450, win 65476, options [mss 65476,sackOK,TS val 646635993 ecr 0,nop,wscale 7], length 0
+00:40:39.255173 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [S.], seq 3220271717, ack 1100715068, win 65464, options [mss 65476,sackOK,TS val 646635993 ecr 646635993,nop,wscale 7], length 0
+00:40:39.255183 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [S.], seq 4178622973, ack 2107534451, win 65464, options [mss 65476,sackOK,TS val 646635993 ecr 646635993,nop,wscale 7], length 0
+00:40:39.255195 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646635993 ecr 646635993], length 0
+00:40:39.255206 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646635993 ecr 646635993], length 0
+00:40:39.255531 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646635993 ecr 646635993], length 275
+00:40:39.255539 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646635993 ecr 646635993], length 275
+00:40:39.255551 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [.], ack 276, win 510, options [nop,nop,TS val 646635993 ecr 646635993], length 0
+00:40:39.255558 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [.], ack 276, win 510, options [nop,nop,TS val 646635993 ecr 646635993], length 0
+00:40:39.259279 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646635997 ecr 646635993], length 2341
+00:40:39.259296 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646635997 ecr 646635997], length 0
+00:40:39.260321 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646635998 ecr 646635993], length 2341
+00:40:39.260344 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646635998 ecr 646635998], length 0
+00:40:39.260716 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646635998 ecr 646635997], length 94
+00:40:39.260848 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646635999 ecr 646635997], length 86
+00:40:39.260962 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [.], ack 456, win 512, options [nop,nop,TS val 646635999 ecr 646635998], length 0
+00:40:39.260978 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [P.], seq 456:527, ack 2342, win 706, options [nop,nop,TS val 646635999 ecr 646635997], length 71
+00:40:39.261023 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [P.], seq 2342:2403, ack 527, win 512, options [nop,nop,TS val 646635999 ecr 646635999], length 61
+00:40:39.261098 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [P.], seq 527:558, ack 2403, win 706, options [nop,nop,TS val 646635999 ecr 646635999], length 31
+00:40:39.261129 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [P.], seq 2403:2447, ack 558, win 512, options [nop,nop,TS val 646635999 ecr 646635999], length 44
+00:40:39.261685 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [P.], seq 2447:2486, ack 558, win 512, options [nop,nop,TS val 646635999 ecr 646635999], length 39
+00:40:39.261771 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [.], ack 2486, win 706, options [nop,nop,TS val 646636000 ecr 646635999], length 0
+00:40:39.261843 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [P.], seq 2486:2638, ack 558, win 512, options [nop,nop,TS val 646636000 ecr 646636000], length 152
+00:40:39.261911 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [P.], seq 2638:2671, ack 558, win 512, options [nop,nop,TS val 646636000 ecr 646636000], length 33
+00:40:39.261986 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [.], ack 2671, win 718, options [nop,nop,TS val 646636000 ecr 646636000], length 0
+00:40:39.262057 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [P.], seq 558:582, ack 2671, win 718, options [nop,nop,TS val 646636000 ecr 646636000], length 24
+00:40:39.262114 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [F.], seq 582, ack 2671, win 718, options [nop,nop,TS val 646636000 ecr 646636000], length 0
+00:40:39.262151 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58970: Flags [P.], seq 2671:2695, ack 583, win 512, options [nop,nop,TS val 646636000 ecr 646636000], length 24
+00:40:39.262188 lo    In  IP6 ip6-localhost.58970 > ip6-localhost.10350: Flags [R], seq 2107535033, win 0, length 0
+00:40:39.262407 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646636000 ecr 646635998], length 94
+00:40:39.262527 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646636000 ecr 646635998], length 86
+00:40:39.262621 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [P.], seq 456:528, ack 2342, win 706, options [nop,nop,TS val 646636000 ecr 646635998], length 72
+00:40:39.262624 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [.], ack 456, win 512, options [nop,nop,TS val 646636000 ecr 646636000], length 0
+00:40:39.262674 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [P.], seq 2342:2403, ack 528, win 512, options [nop,nop,TS val 646636000 ecr 646636000], length 61
+00:40:39.262764 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [P.], seq 528:559, ack 2403, win 706, options [nop,nop,TS val 646636001 ecr 646636000], length 31
+00:40:39.262796 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [P.], seq 2403:2438, ack 559, win 512, options [nop,nop,TS val 646636001 ecr 646636001], length 35
+00:40:39.262858 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [P.], seq 2438:2469, ack 559, win 512, options [nop,nop,TS val 646636001 ecr 646636001], length 31
+00:40:39.262885 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [.], ack 2469, win 706, options [nop,nop,TS val 646636001 ecr 646636001], length 0
+00:40:39.263323 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [P.], seq 2469:2508, ack 559, win 512, options [nop,nop,TS val 646636001 ecr 646636001], length 39
+00:40:39.263476 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [P.], seq 2508:2660, ack 559, win 512, options [nop,nop,TS val 646636001 ecr 646636001], length 152
+00:40:39.263526 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [.], ack 2660, win 718, options [nop,nop,TS val 646636001 ecr 646636001], length 0
+00:40:39.263555 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [P.], seq 2660:2693, ack 559, win 512, options [nop,nop,TS val 646636001 ecr 646636001], length 33
+00:40:39.263661 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [P.], seq 559:583, ack 2693, win 718, options [nop,nop,TS val 646636001 ecr 646636001], length 24
+00:40:39.263708 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [F.], seq 583, ack 2693, win 718, options [nop,nop,TS val 646636001 ecr 646636001], length 0
+00:40:39.263754 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.58960: Flags [P.], seq 2693:2717, ack 584, win 512, options [nop,nop,TS val 646636002 ecr 646636001], length 24
+00:40:39.263785 lo    In  IP6 ip6-localhost.58960 > ip6-localhost.10350: Flags [R], seq 1100715651, win 0, length 0
+00:40:39.350370 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 2, length 64
+00:40:39.350395 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 2, length 64
+00:40:39.350417 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 695, seq 2, length 64
+00:40:39.485567 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 695, seq 2, length 64
+00:40:39.485589 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 2, length 64
+00:40:39.485608 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 2, length 64
+00:40:39.834215 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:39.834455 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:40.121332 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:40.121591 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:40.157786 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 4792:4914, ack 233, win 615, options [nop,nop,TS val 1019811453 ecr 3865628656], length 122
+00:40:40.157839 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 4914, win 12435, options [nop,nop,TS val 3865634259 ecr 1019811453], length 0
+00:40:40.206676 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:40.207039 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:40.350552 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 3, length 64
+00:40:40.350582 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 3, length 64
+00:40:40.350610 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 695, seq 3, length 64
+00:40:40.468668 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 695, seq 3, length 64
+00:40:40.468691 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 3, length 64
+00:40:40.468708 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 3, length 64
+00:40:41.350776 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 4, length 64
+00:40:41.350805 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 695, seq 4, length 64
+00:40:41.350831 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 695, seq 4, length 64
+00:40:41.477870 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 695, seq 4, length 64
+00:40:41.477899 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 4, length 64
+00:40:41.477920 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 695, seq 4, length 64
+00:40:41.834522 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:41.834845 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:42.000185 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 4914:5055, ack 233, win 615, options [nop,nop,TS val 1019813295 ecr 3865634259], length 141
+00:40:42.000234 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 5055, win 12435, options [nop,nop,TS val 3865636101 ecr 1019813295], length 0
+00:40:42.120927 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:42.121168 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:42.206677 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:42.207023 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:42.835081 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:42.835324 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:43.206715 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:43.206958 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:43.483179 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 0, length 64
+00:40:43.483213 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 0, length 64
+00:40:43.483259 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 697, seq 0, length 64
+00:40:43.834257 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:43.834594 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:43.848333 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 697, seq 0, length 64
+00:40:43.848357 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 0, length 64
+00:40:43.848377 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 0, length 64
+00:40:44.483402 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 1, length 64
+00:40:44.483429 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 1, length 64
+00:40:44.483455 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 697, seq 1, length 64
+00:40:44.584306 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3865:3905, ack 29926, win 9801, options [nop,nop,TS val 3649014733 ecr 1019809513], length 40
+00:40:44.584398 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 3905:4452, ack 29926, win 9801, options [nop,nop,TS val 3649014733 ecr 1019809513], length 547
+00:40:44.584576 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 4452, win 9411, options [nop,nop,TS val 1019815879 ecr 3649014733], length 0
+00:40:44.600743 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 29926:30016, ack 4452, win 9411, options [nop,nop,TS val 1019815895 ecr 3649014733], length 90
+00:40:44.600801 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 30016, win 9801, options [nop,nop,TS val 3649014750 ecr 1019815895], length 0
+00:40:44.601467 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 30016:30563, ack 4452, win 9411, options [nop,nop,TS val 1019815896 ecr 3649014750], length 547
+00:40:44.601499 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 30563, win 9799, options [nop,nop,TS val 3649014750 ecr 1019815896], length 0
+00:40:44.666941 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 697, seq 1, length 64
+00:40:44.666963 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 1, length 64
+00:40:44.666980 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 1, length 64
+00:40:44.834148 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:44.834428 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:44.969141 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.3664: Flags [P.], seq 5055:5154, ack 233, win 615, options [nop,nop,TS val 1019816264 ecr 3865636101], length 99
+00:40:44.969210 enp45s0 Out IP 172.17.0.3.3664 > 172.17.0.4.6443: Flags [.], ack 5154, win 12435, options [nop,nop,TS val 3865639070 ecr 1019816264], length 0
+00:40:45.121307 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:45.121600 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:45.483605 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 2, length 64
+00:40:45.483632 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 2, length 64
+00:40:45.483660 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 697, seq 2, length 64
+00:40:45.536424 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 4452:4490, ack 30563, win 9801, options [nop,nop,TS val 3649015685 ecr 1019815896], length 38
+00:40:45.537928 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 30563:30653, ack 4490, win 9411, options [nop,nop,TS val 1019816833 ecr 3649015685], length 90
+00:40:45.537953 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 30653, win 9801, options [nop,nop,TS val 3649015687 ecr 1019816833], length 0
+00:40:45.537998 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 30653:35241, ack 4490, win 9411, options [nop,nop,TS val 1019816833 ecr 3649015687], length 4588
+00:40:45.538008 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [.], ack 35241, win 9779, options [nop,nop,TS val 3649015687 ecr 1019816833], length 0
+00:40:45.538240 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [P.], seq 35241:35272, ack 4490, win 9411, options [nop,nop,TS val 1019816833 ecr 3649015687], length 31
+00:40:45.538252 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 4490:4525, ack 35241, win 9801, options [nop,nop,TS val 3649015687 ecr 1019816833], length 35
+00:40:45.538312 enp45s0 Out IP 172.17.0.3.49938 > 172.17.0.4.6443: Flags [P.], seq 4525:4560, ack 35272, win 9801, options [nop,nop,TS val 3649015687 ecr 1019816833], length 35
+00:40:45.538356 enp45s0 In  IP 172.17.0.4.6443 > 172.17.0.3.49938: Flags [.], ack 4560, win 9411, options [nop,nop,TS val 1019816833 ecr 3649015687], length 0
+00:40:45.835162 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:45.835419 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:45.904250 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 697, seq 2, length 64
+00:40:45.904272 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 2, length 64
+00:40:45.904290 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 2, length 64
+00:40:46.121337 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:46.121574 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:46.206730 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:46.206994 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:46.483833 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 3, length 64
+00:40:46.483867 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 3, length 64
+00:40:46.483899 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 697, seq 3, length 64
+00:40:46.494823 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [P.], seq 1708:1747, ack 3305, win 561, options [nop,nop,TS val 1019817790 ecr 3648986643], length 39
+00:40:46.495076 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.59412: Flags [P.], seq 3305:3344, ack 1747, win 554, options [nop,nop,TS val 3649016644 ecr 1019817790], length 39
+00:40:46.495124 enp45s0 In  IP 172.17.0.4.59412 > 172.17.0.3.10250: Flags [.], ack 3344, win 561, options [nop,nop,TS val 1019817790 ecr 3649016644], length 0
+00:40:46.834670 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:46.834992 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:46.929948 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 697, seq 3, length 64
+00:40:46.929970 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 3, length 64
+00:40:46.929989 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 3, length 64
+00:40:47.205889 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:47.206142 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:47.484040 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 4, length 64
+00:40:47.484071 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 697, seq 4, length 64
+00:40:47.484105 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 697, seq 4, length 64
+00:40:47.834175 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 108
+00:40:47.834438 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:48.121138 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 102
+00:40:48.121433 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 20
+00:40:48.157659 enp45s0 In  IP dns.google > 172.17.0.3: ICMP echo reply, id 697, seq 4, length 64
+00:40:48.157683 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 4, length 64
+00:40:48.157702 ?     Out IP dns.google > 10.244.2.2: ICMP echo reply, id 697, seq 4, length 64
+00:40:48.835058 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:48.835297 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:49.256149 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [S], seq 1839089269, win 65476, options [mss 65476,sackOK,TS val 646645994 ecr 0,nop,wscale 7], length 0
+00:40:49.256150 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [S], seq 2011106744, win 65476, options [mss 65476,sackOK,TS val 646645994 ecr 0,nop,wscale 7], length 0
+00:40:49.256180 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [S.], seq 3080573977, ack 1839089270, win 65464, options [mss 65476,sackOK,TS val 646645994 ecr 646645994,nop,wscale 7], length 0
+00:40:49.256182 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [S.], seq 2223262258, ack 2011106745, win 65464, options [mss 65476,sackOK,TS val 646645994 ecr 646645994,nop,wscale 7], length 0
+00:40:49.256205 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646645994 ecr 646645994], length 0
+00:40:49.256207 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [.], ack 1, win 512, options [nop,nop,TS val 646645994 ecr 646645994], length 0
+00:40:49.256633 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646645994 ecr 646645994], length 275
+00:40:49.256634 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [P.], seq 1:276, ack 1, win 512, options [nop,nop,TS val 646645994 ecr 646645994], length 275
+00:40:49.256660 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [.], ack 276, win 510, options [nop,nop,TS val 646645994 ecr 646645994], length 0
+00:40:49.256661 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [.], ack 276, win 510, options [nop,nop,TS val 646645994 ecr 646645994], length 0
+00:40:49.261549 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646645999 ecr 646645994], length 2341
+00:40:49.261589 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646645999 ecr 646645999], length 0
+00:40:49.261748 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [P.], seq 1:2342, ack 276, win 512, options [nop,nop,TS val 646645999 ecr 646645994], length 2341
+00:40:49.261775 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [.], ack 2342, win 706, options [nop,nop,TS val 646646000 ecr 646645999], length 0
+00:40:49.262985 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646646001 ecr 646645999], length 94
+00:40:49.263082 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646646001 ecr 646645999], length 86
+00:40:49.263179 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [P.], seq 456:528, ack 2342, win 706, options [nop,nop,TS val 646646001 ecr 646645999], length 72
+00:40:49.263259 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [.], ack 528, win 512, options [nop,nop,TS val 646646001 ecr 646646001], length 0
+00:40:49.263342 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [P.], seq 2342:2403, ack 528, win 512, options [nop,nop,TS val 646646001 ecr 646646001], length 61
+00:40:49.263455 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [P.], seq 528:559, ack 2403, win 706, options [nop,nop,TS val 646646001 ecr 646646001], length 31
+00:40:49.263472 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [P.], seq 2403:2447, ack 528, win 512, options [nop,nop,TS val 646646001 ecr 646646001], length 44
+00:40:49.264172 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [P.], seq 2447:2486, ack 559, win 512, options [nop,nop,TS val 646646002 ecr 646646001], length 39
+00:40:49.264225 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [.], ack 2486, win 706, options [nop,nop,TS val 646646002 ecr 646646001], length 0
+00:40:49.264281 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [P.], seq 2486:2638, ack 559, win 512, options [nop,nop,TS val 646646002 ecr 646646002], length 152
+00:40:49.264327 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [P.], seq 2638:2671, ack 559, win 512, options [nop,nop,TS val 646646002 ecr 646646002], length 33
+00:40:49.264384 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [.], ack 2671, win 718, options [nop,nop,TS val 646646002 ecr 646646002], length 0
+00:40:49.264445 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [P.], seq 559:583, ack 2671, win 718, options [nop,nop,TS val 646646002 ecr 646646002], length 24
+00:40:49.264486 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [F.], seq 583, ack 2671, win 718, options [nop,nop,TS val 646646002 ecr 646646002], length 0
+00:40:49.264523 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34970: Flags [P.], seq 2671:2695, ack 584, win 512, options [nop,nop,TS val 646646002 ecr 646646002], length 24
+00:40:49.264555 lo    In  IP6 ip6-localhost.34970 > ip6-localhost.10350: Flags [R], seq 1839089853, win 0, length 0
+00:40:49.264845 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [P.], seq 276:370, ack 2342, win 706, options [nop,nop,TS val 646646003 ecr 646645999], length 94
+00:40:49.264925 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [P.], seq 370:456, ack 2342, win 706, options [nop,nop,TS val 646646003 ecr 646645999], length 86
+00:40:49.264997 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [P.], seq 456:527, ack 2342, win 706, options [nop,nop,TS val 646646003 ecr 646645999], length 71
+00:40:49.265029 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [.], ack 527, win 512, options [nop,nop,TS val 646646003 ecr 646646003], length 0
+00:40:49.265065 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [P.], seq 2342:2403, ack 527, win 512, options [nop,nop,TS val 646646003 ecr 646646003], length 61
+00:40:49.265146 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [P.], seq 527:558, ack 2403, win 706, options [nop,nop,TS val 646646003 ecr 646646003], length 31
+00:40:49.265154 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [P.], seq 2403:2447, ack 527, win 512, options [nop,nop,TS val 646646003 ecr 646646003], length 44
+00:40:49.265671 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [P.], seq 2447:2486, ack 558, win 512, options [nop,nop,TS val 646646003 ecr 646646003], length 39
+00:40:49.265742 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [.], ack 2486, win 706, options [nop,nop,TS val 646646003 ecr 646646003], length 0
+00:40:49.265909 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [P.], seq 2486:2637, ack 558, win 512, options [nop,nop,TS val 646646004 ecr 646646003], length 151
+00:40:49.265974 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [P.], seq 2637:2670, ack 558, win 512, options [nop,nop,TS val 646646004 ecr 646646003], length 33
+00:40:49.266038 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [.], ack 2670, win 718, options [nop,nop,TS val 646646004 ecr 646646004], length 0
+00:40:49.266099 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [P.], seq 558:582, ack 2670, win 718, options [nop,nop,TS val 646646004 ecr 646646004], length 24
+00:40:49.266142 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [F.], seq 582, ack 2670, win 718, options [nop,nop,TS val 646646004 ecr 646646004], length 0
+00:40:49.266205 lo    In  IP6 ip6-localhost.10350 > ip6-localhost.34958: Flags [P.], seq 2670:2694, ack 583, win 512, options [nop,nop,TS val 646646004 ecr 646646004], length 24
+00:40:49.266242 lo    In  IP6 ip6-localhost.34958 > ip6-localhost.10350: Flags [R], seq 2011107327, win 0, length 0
+00:40:49.834512 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.2.10351: UDP, length 102
+00:40:49.834912 enp45s0 In  IP 172.17.0.2.10351 > 172.17.0.3.10351: UDP, length 20
+00:40:50.162346 ?     P   IP 10.244.2.2 > dns.google: ICMP echo request, id 699, seq 0, length 64
+00:40:50.162400 ?     In  IP 10.244.2.2 > dns.google: ICMP echo request, id 699, seq 0, length 64
+00:40:50.162474 enp45s0 Out IP 172.17.0.3 > dns.google: ICMP echo request, id 699, seq 0, length 64
+00:40:50.206937 enp45s0 In  IP 172.17.0.4.10351 > 172.17.0.3.10351: UDP, length 108
+00:40:50.207378 enp45s0 Out IP 172.17.0.3.10351 > 172.17.0.4.10351: UDP, length 20
+00:40:50.281884 enp45s0 In  IP 172.17.0.4.56578 > 172.17.0.3.10250: Flags [S], seq 3378579321, win 64240, options [mss 1460,sackOK,TS val 1019821577 ecr 0,nop,wscale 7], length 0
+00:40:50.281923 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [S.], seq 742029871, ack 3378579322, win 65160, options [mss 1460,sackOK,TS val 3649020431 ecr 1019821577,nop,wscale 7], length 0
+00:40:50.281945 enp45s0 In  IP 172.17.0.4.56578 > 172.17.0.3.10250: Flags [.], ack 1, win 502, options [nop,nop,TS val 1019821577 ecr 3649020431], length 0
+00:40:50.282253 enp45s0 In  IP 172.17.0.4.56578 > 172.17.0.3.10250: Flags [P.], seq 1:255, ack 1, win 502, options [nop,nop,TS val 1019821577 ecr 3649020431], length 254
+00:40:50.282278 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [.], ack 255, win 508, options [nop,nop,TS val 3649020431 ecr 1019821577], length 0
+00:40:50.286822 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [P.], seq 1:2304, ack 255, win 508, options [nop,nop,TS val 3649020436 ecr 1019821577], length 2303
+00:40:50.286855 enp45s0 In  IP 172.17.0.4.56578 > 172.17.0.3.10250: Flags [.], ack 2304, win 538, options [nop,nop,TS val 1019821582 ecr 3649020436], length 0
+00:40:50.292217 enp45s0 In  IP 172.17.0.4.56578 > 172.17.0.3.10250: Flags [P.], seq 255:1458, ack 2304, win 538, options [nop,nop,TS val 1019821587 ecr 3649020436], length 1203
+00:40:50.292306 enp45s0 In  IP 172.17.0.4.56578 > 172.17.0.3.10250: Flags [P.], seq 1458:1979, ack 2304, win 538, options [nop,nop,TS val 1019821587 ecr 3649020436], length 521
+00:40:50.292315 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [.], ack 1979, win 554, options [nop,nop,TS val 3649020441 ecr 1019821587], length 0
+00:40:50.295426 lo    In  IP localhost.57718 > localhost.42343: Flags [S], seq 413281319, win 65495, options [mss 65495,sackOK,TS val 2701393717 ecr 0,nop,wscale 7], length 0
+00:40:50.295446 lo    In  IP localhost.42343 > localhost.57718: Flags [S.], seq 3252206596, ack 413281320, win 65483, options [mss 65495,sackOK,TS val 2701393717 ecr 2701393717,nop,wscale 7], length 0
+00:40:50.295463 lo    In  IP localhost.57718 > localhost.42343: Flags [.], ack 1, win 512, options [nop,nop,TS val 2701393717 ecr 2701393717], length 0
+00:40:50.295571 lo    In  IP localhost.57718 > localhost.42343: Flags [P.], seq 1:400, ack 1, win 512, options [nop,nop,TS val 2701393717 ecr 2701393717], length 399
+00:40:50.295587 lo    In  IP localhost.42343 > localhost.57718: Flags [.], ack 400, win 509, options [nop,nop,TS val 2701393717 ecr 2701393717], length 0
+00:40:50.295846 lo    In  IP localhost.42343 > localhost.57718: Flags [P.], seq 1:27, ack 400, win 512, options [nop,nop,TS val 2701393718 ecr 2701393717], length 26
+00:40:50.295861 lo    In  IP localhost.57718 > localhost.42343: Flags [.], ack 27, win 512, options [nop,nop,TS val 2701393718 ecr 2701393718], length 0
+00:40:50.295887 lo    In  IP localhost.42343 > localhost.57718: Flags [F.], seq 27, ack 400, win 512, options [nop,nop,TS val 2701393718 ecr 2701393718], length 0
+00:40:50.295944 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [P.], seq 2304:2350, ack 1979, win 554, options [nop,nop,TS val 3649020445 ecr 1019821587], length 46
+00:40:50.295989 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [P.], seq 2350:2391, ack 1979, win 554, options [nop,nop,TS val 3649020445 ecr 1019821587], length 41
+00:40:50.296004 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [P.], seq 2391:2415, ack 1979, win 554, options [nop,nop,TS val 3649020445 ecr 1019821587], length 24
+00:40:50.296037 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [P.], seq 2415:2439, ack 1979, win 554, options [nop,nop,TS val 3649020445 ecr 1019821587], length 24
+00:40:50.296044 enp45s0 In  IP 172.17.0.4.56578 > 172.17.0.3.10250: Flags [.], ack 2415, win 538, options [nop,nop,TS val 1019821591 ecr 3649020445], length 0
+00:40:50.296063 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [F.], seq 2439, ack 1979, win 554, options [nop,nop,TS val 3649020445 ecr 1019821591], length 0
+00:40:50.296097 lo    In  IP localhost.57718 > localhost.42343: Flags [F.], seq 400, ack 28, win 512, options [nop,nop,TS val 2701393718 ecr 2701393718], length 0
+00:40:50.296124 lo    In  IP localhost.42343 > localhost.57718: Flags [.], ack 401, win 512, options [nop,nop,TS val 2701393718 ecr 2701393718], length 0
+00:40:50.296291 enp45s0 In  IP 172.17.0.4.56578 > 172.17.0.3.10250: Flags [P.], seq 1979:2003, ack 2440, win 538, options [nop,nop,TS val 1019821591 ecr 3649020445], length 24
+00:40:50.296311 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56578: Flags [R], seq 742032311, win 0, length 0
+00:40:50.308676 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [S], seq 2584351225, win 64240, options [mss 1460,sackOK,TS val 1019821603 ecr 0,nop,wscale 7], length 0
+00:40:50.308712 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [S.], seq 629204891, ack 2584351226, win 65160, options [mss 1460,sackOK,TS val 3649020457 ecr 1019821603,nop,wscale 7], length 0
+00:40:50.308769 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 1, win 502, options [nop,nop,TS val 1019821604 ecr 3649020457], length 0
+00:40:50.309110 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 1:255, ack 1, win 502, options [nop,nop,TS val 1019821604 ecr 3649020457], length 254
+00:40:50.309132 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 255, win 508, options [nop,nop,TS val 3649020458 ecr 1019821604], length 0
+00:40:50.313462 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 1:2304, ack 255, win 508, options [nop,nop,TS val 3649020462 ecr 1019821604], length 2303
+00:40:50.313490 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2304, win 538, options [nop,nop,TS val 1019821608 ecr 3649020462], length 0
+00:40:50.317923 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 255:1458, ack 2304, win 538, options [nop,nop,TS val 1019821613 ecr 3649020462], length 1203
+00:40:50.317997 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 1458:2110, ack 2304, win 538, options [nop,nop,TS val 1019821613 ecr 3649020462], length 652
+00:40:50.318006 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2110, win 554, options [nop,nop,TS val 3649020467 ecr 1019821613], length 0
+00:40:50.321026 lo    In  IP localhost.57722 > localhost.42343: Flags [S], seq 1822968658, win 65495, options [mss 65495,sackOK,TS val 2701393743 ecr 0,nop,wscale 7], length 0
+00:40:50.321045 lo    In  IP localhost.42343 > localhost.57722: Flags [S.], seq 792767621, ack 1822968659, win 65483, options [mss 65495,sackOK,TS val 2701393743 ecr 2701393743,nop,wscale 7], length 0
+00:40:50.321060 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 1, win 512, options [nop,nop,TS val 2701393743 ecr 2701393743], length 0
+00:40:50.321213 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 1:531, ack 1, win 512, options [nop,nop,TS val 2701393743 ecr 2701393743], length 530
+00:40:50.321231 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 531, win 508, options [nop,nop,TS val 2701393743 ecr 2701393743], length 0
+00:40:50.321449 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 1:123, ack 531, win 512, options [nop,nop,TS val 2701393743 ecr 2701393743], length 122
+00:40:50.321471 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 123, win 512, options [nop,nop,TS val 2701393743 ecr 2701393743], length 0
+00:40:50.321549 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2304:2448, ack 2110, win 554, options [nop,nop,TS val 3649020470 ecr 1019821613], length 144
+00:40:50.323116 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2110:2134, ack 2448, win 561, options [nop,nop,TS val 1019821618 ecr 3649020470], length 24
+00:40:50.323147 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2134:2158, ack 2448, win 561, options [nop,nop,TS val 1019821618 ecr 3649020470], length 24
+00:40:50.323165 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2158, win 554, options [nop,nop,TS val 3649020472 ecr 1019821618], length 0
+00:40:50.323179 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2158:2184, ack 2448, win 561, options [nop,nop,TS val 1019821618 ecr 3649020470], length 26
+00:40:50.323196 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 531:533, ack 123, win 512, options [nop,nop,TS val 2701393745 ecr 2701393743], length 2
+00:40:50.323202 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2184:2210, ack 2448, win 561, options [nop,nop,TS val 1019821618 ecr 3649020472], length 26
+00:40:50.323214 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 533:535, ack 123, win 512, options [nop,nop,TS val 2701393745 ecr 2701393743], length 2
+00:40:50.323218 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2210:2236, ack 2448, win 561, options [nop,nop,TS val 1019821618 ecr 3649020472], length 26
+00:40:50.323230 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2236:2259, ack 2448, win 561, options [nop,nop,TS val 1019821618 ecr 3649020472], length 23
+00:40:50.323232 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2236, win 554, options [nop,nop,TS val 3649020472 ecr 1019821618], length 0
+00:40:50.323241 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 535, win 512, options [nop,nop,TS val 2701393745 ecr 2701393745], length 0
+00:40:50.323251 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2259:2282, ack 2448, win 561, options [nop,nop,TS val 1019821618 ecr 3649020472], length 23
+00:40:50.323251 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 535:539, ack 123, win 512, options [nop,nop,TS val 2701393745 ecr 2701393743], length 4
+00:40:50.323266 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 539:543, ack 123, win 512, options [nop,nop,TS val 2701393745 ecr 2701393745], length 4
+00:40:50.323269 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2282:2335, ack 2448, win 561, options [nop,nop,TS val 1019821618 ecr 3649020472], length 53
+00:40:50.323277 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 543, win 512, options [nop,nop,TS val 2701393745 ecr 2701393745], length 0
+00:40:50.323278 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 543:547, ack 123, win 512, options [nop,nop,TS val 2701393745 ecr 2701393745], length 4
+00:40:50.323289 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2335, win 554, options [nop,nop,TS val 3649020472 ecr 1019821618], length 0
+00:40:50.323310 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 547:548, ack 123, win 512, options [nop,nop,TS val 2701393745 ecr 2701393745], length 1
+00:40:50.323326 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 548:549, ack 123, win 512, options [nop,nop,TS val 2701393745 ecr 2701393745], length 1
+00:40:50.323336 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 549:580, ack 123, win 512, options [nop,nop,TS val 2701393745 ecr 2701393745], length 31
+00:40:50.323339 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 549, win 512, options [nop,nop,TS val 2701393745 ecr 2701393745], length 0
+00:40:50.324152 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 123:125, ack 580, win 512, options [nop,nop,TS val 2701393746 ecr 2701393745], length 2
+00:40:50.324172 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 125:127, ack 580, win 512, options [nop,nop,TS val 2701393746 ecr 2701393745], length 2
+00:40:50.324182 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 127:131, ack 580, win 512, options [nop,nop,TS val 2701393746 ecr 2701393745], length 4
+00:40:50.324191 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 131:135, ack 580, win 512, options [nop,nop,TS val 2701393746 ecr 2701393745], length 4
+00:40:50.324201 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 135:151, ack 580, win 512, options [nop,nop,TS val 2701393746 ecr 2701393745], length 16
+00:40:50.324205 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 135, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 0
+00:40:50.324232 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2448:2482, ack 2335, win 554, options [nop,nop,TS val 3649020473 ecr 1019821618], length 34
+00:40:50.324252 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2482:2520, ack 2335, win 554, options [nop,nop,TS val 3649020473 ecr 1019821618], length 38
+00:40:50.324292 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2520, win 561, options [nop,nop,TS val 1019821619 ecr 3649020473], length 0
+00:40:50.324534 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2335:2359, ack 2520, win 561, options [nop,nop,TS val 1019821619 ecr 3649020473], length 24
+00:40:50.324561 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2359:2383, ack 2520, win 561, options [nop,nop,TS val 1019821619 ecr 3649020473], length 24
+00:40:50.324579 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 580:582, ack 151, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 2
+00:40:50.324580 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2383:2409, ack 2520, win 561, options [nop,nop,TS val 1019821619 ecr 3649020473], length 26
+00:40:50.324596 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2409:2435, ack 2520, win 561, options [nop,nop,TS val 1019821619 ecr 3649020473], length 26
+00:40:50.324602 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2409, win 554, options [nop,nop,TS val 3649020473 ecr 1019821619], length 0
+00:40:50.324608 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2435:2461, ack 2520, win 561, options [nop,nop,TS val 1019821619 ecr 3649020473], length 26
+00:40:50.324621 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 582:584, ack 151, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 2
+00:40:50.324633 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 584:588, ack 151, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 4
+00:40:50.324634 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2461:2484, ack 2520, win 561, options [nop,nop,TS val 1019821619 ecr 3649020473], length 23
+00:40:50.324642 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2484, win 554, options [nop,nop,TS val 3649020473 ecr 1019821619], length 0
+00:40:50.324644 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 584, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 0
+00:40:50.324652 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2484:2507, ack 2520, win 561, options [nop,nop,TS val 1019821619 ecr 3649020473], length 23
+00:40:50.324657 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 588:592, ack 151, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 4
+00:40:50.324670 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 592, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 0
+00:40:50.324674 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2507:2544, ack 2520, win 561, options [nop,nop,TS val 1019821619 ecr 3649020473], length 37
+00:40:50.324676 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 592:596, ack 151, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 4
+00:40:50.324689 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 596:597, ack 151, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 1
+00:40:50.324705 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2544, win 554, options [nop,nop,TS val 3649020473 ecr 1019821619], length 0
+00:40:50.324713 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 597, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 0
+00:40:50.324751 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 597:598, ack 151, win 512, options [nop,nop,TS val 2701393746 ecr 2701393746], length 1
+00:40:50.324771 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 598:613, ack 151, win 512, options [nop,nop,TS val 2701393747 ecr 2701393746], length 15
+00:40:50.324788 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 613, win 512, options [nop,nop,TS val 2701393747 ecr 2701393746], length 0
+00:40:50.324837 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 151:153, ack 613, win 512, options [nop,nop,TS val 2701393747 ecr 2701393746], length 2
+00:40:50.324855 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 153:155, ack 613, win 512, options [nop,nop,TS val 2701393747 ecr 2701393746], length 2
+00:40:50.324868 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2520:2544, ack 2544, win 554, options [nop,nop,TS val 3649020474 ecr 1019821619], length 24
+00:40:50.324872 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 155:159, ack 613, win 512, options [nop,nop,TS val 2701393747 ecr 2701393746], length 4
+00:40:50.324882 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 159:163, ack 613, win 512, options [nop,nop,TS val 2701393747 ecr 2701393746], length 4
+00:40:50.324887 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 159, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 0
+00:40:50.324894 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 163:171, ack 613, win 512, options [nop,nop,TS val 2701393747 ecr 2701393746], length 8
+00:40:50.324896 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2544:2572, ack 2544, win 554, options [nop,nop,TS val 3649020474 ecr 1019821619], length 28
+00:40:50.324910 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 171, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 0
+00:40:50.324918 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2572, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 0
+00:40:50.324923 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2572:2606, ack 2544, win 554, options [nop,nop,TS val 3649020474 ecr 1019821619], length 34
+00:40:50.325180 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2544:2568, ack 2606, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 24
+00:40:50.325200 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2568:2592, ack 2606, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 24
+00:40:50.325209 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 613:615, ack 171, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 2
+00:40:50.325223 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2592, win 554, options [nop,nop,TS val 3649020474 ecr 1019821620], length 0
+00:40:50.325238 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2592:2618, ack 2606, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 26
+00:40:50.325244 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 615:617, ack 171, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 2
+00:40:50.325259 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2618:2644, ack 2606, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 26
+00:40:50.325266 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 617:621, ack 171, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 4
+00:40:50.325269 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 617, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 0
+00:40:50.325283 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2644, win 554, options [nop,nop,TS val 3649020474 ecr 1019821620], length 0
+00:40:50.325294 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2644:2670, ack 2606, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 26
+00:40:50.325302 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 621:625, ack 171, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 4
+00:40:50.325310 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2670:2693, ack 2606, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 23
+00:40:50.325320 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 625:629, ack 171, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 4
+00:40:50.325321 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 625, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 0
+00:40:50.325322 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2693:2716, ack 2606, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 23
+00:40:50.325333 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [P.], seq 2716:2749, ack 2606, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 33
+00:40:50.325336 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [.], ack 2716, win 554, options [nop,nop,TS val 3649020474 ecr 1019821620], length 0
+00:40:50.325353 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 629:630, ack 171, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 1
+00:40:50.325364 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 630:631, ack 171, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 1
+00:40:50.325370 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 630, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 0
+00:40:50.325376 lo    In  IP localhost.57722 > localhost.42343: Flags [P.], seq 631:642, ack 171, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 11
+00:40:50.325384 lo    In  IP localhost.42343 > localhost.57722: Flags [.], ack 642, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 0
+00:40:50.325432 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 171:173, ack 642, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 2
+00:40:50.325451 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 173:175, ack 642, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 2
+00:40:50.325463 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 175:179, ack 642, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 4
+00:40:50.325464 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2606:2630, ack 2749, win 554, options [nop,nop,TS val 3649020474 ecr 1019821620], length 24
+00:40:50.325472 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 179:183, ack 642, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 4
+00:40:50.325481 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 183:191, ack 642, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 8
+00:40:50.325491 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 183, win 512, options [nop,nop,TS val 2701393747 ecr 2701393747], length 0
+00:40:50.325509 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2630:2662, ack 2749, win 554, options [nop,nop,TS val 3649020474 ecr 1019821620], length 32
+00:40:50.325526 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2662:2692, ack 2749, win 554, options [nop,nop,TS val 3649020474 ecr 1019821620], length 30
+00:40:50.325535 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2662, win 561, options [nop,nop,TS val 1019821620 ecr 3649020474], length 0
+00:40:50.365766 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 191, win 512, options [nop,nop,TS val 2701393788 ecr 2701393747], length 0
+00:40:50.365820 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2692, win 561, options [nop,nop,TS val 1019821661 ecr 3649020474], length 0
+00:40:50.367458 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 191:195, ack 642, win 512, options [nop,nop,TS val 2701393789 ecr 2701393788], length 4
+00:40:50.367486 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 195, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 0
+00:40:50.367513 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 195:199, ack 642, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 4
+00:40:50.367530 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 199:281, ack 642, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 82
+00:40:50.367552 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 199, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 0
+00:40:50.367557 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 281, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 0
+00:40:50.367607 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2692:2718, ack 2749, win 554, options [nop,nop,TS val 3649020516 ecr 1019821661], length 26
+00:40:50.367625 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 281:285, ack 642, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 4
+00:40:50.367640 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 285, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 0
+00:40:50.367651 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2718, win 561, options [nop,nop,TS val 1019821662 ecr 3649020516], length 0
+00:40:50.367666 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 285:289, ack 642, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 4
+00:40:50.367677 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 289, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 0
+00:40:50.367699 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2718:2834, ack 2749, win 554, options [nop,nop,TS val 3649020516 ecr 1019821662], length 116
+00:40:50.367710 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 289:293, ack 642, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 4
+00:40:50.367729 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2834, win 561, options [nop,nop,TS val 1019821662 ecr 3649020516], length 0
+00:40:50.367729 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 293, win 512, options [nop,nop,TS val 2701393789 ecr 2701393789], length 0
+00:40:50.367751 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 293:297, ack 642, win 512, options [nop,nop,TS val 2701393790 ecr 2701393789], length 4
+00:40:50.367761 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 297, win 512, options [nop,nop,TS val 2701393790 ecr 2701393790], length 0
+00:40:50.367773 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2834:2864, ack 2749, win 554, options [nop,nop,TS val 3649020517 ecr 1019821662], length 30
+00:40:50.367790 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2864, win 561, options [nop,nop,TS val 1019821663 ecr 3649020517], length 0
+00:40:50.369567 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 297:301, ack 642, win 512, options [nop,nop,TS val 2701393791 ecr 2701393790], length 4
+00:40:50.369587 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 301, win 512, options [nop,nop,TS val 2701393791 ecr 2701393791], length 0
+00:40:50.369607 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 301:305, ack 642, win 512, options [nop,nop,TS val 2701393791 ecr 2701393791], length 4
+00:40:50.369620 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 305, win 512, options [nop,nop,TS val 2701393791 ecr 2701393791], length 0
+00:40:50.369637 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 305:339, ack 642, win 512, options [nop,nop,TS val 2701393791 ecr 2701393791], length 34
+00:40:50.369658 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2864:2894, ack 2749, win 554, options [nop,nop,TS val 3649020518 ecr 1019821663], length 30
+00:40:50.369662 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 339:341, ack 642, win 512, options [nop,nop,TS val 2701393791 ecr 2701393791], length 2
+00:40:50.369673 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 341:343, ack 642, win 512, options [nop,nop,TS val 2701393791 ecr 2701393791], length 2
+00:40:50.369683 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 343:347, ack 642, win 512, options [nop,nop,TS val 2701393791 ecr 2701393791], length 4
+00:40:50.369697 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 347:351, ack 642, win 512, options [nop,nop,TS val 2701393791 ecr 2701393791], length 4
+00:40:50.369703 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2894, win 561, options [nop,nop,TS val 1019821664 ecr 3649020518], length 0
+00:40:50.369729 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 351:355, ack 642, win 512, options [nop,nop,TS val 2701393791 ecr 2701393791], length 4
+00:40:50.369747 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 351, win 512, options [nop,nop,TS val 2701393792 ecr 2701393791], length 0
+00:40:50.369771 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 355:357, ack 642, win 512, options [nop,nop,TS val 2701393792 ecr 2701393792], length 2
+00:40:50.369772 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2894:2962, ack 2749, win 554, options [nop,nop,TS val 3649020519 ecr 1019821664], length 68
+00:40:50.369790 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2962, win 561, options [nop,nop,TS val 1019821665 ecr 3649020519], length 0
+00:40:50.369792 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 357:359, ack 642, win 512, options [nop,nop,TS val 2701393792 ecr 2701393792], length 2
+00:40:50.369812 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 359:363, ack 642, win 512, options [nop,nop,TS val 2701393792 ecr 2701393792], length 4
+00:40:50.369812 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 359, win 512, options [nop,nop,TS val 2701393792 ecr 2701393791], length 0
+00:40:50.369824 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2962:2992, ack 2749, win 554, options [nop,nop,TS val 3649020519 ecr 1019821665], length 30
+00:40:50.369833 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 363:367, ack 642, win 512, options [nop,nop,TS val 2701393792 ecr 2701393792], length 4
+00:40:50.369836 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 2992, win 561, options [nop,nop,TS val 1019821665 ecr 3649020519], length 0
+00:40:50.369850 lo    In  IP localhost.42343 > localhost.57722: Flags [P.], seq 367:371, ack 642, win 512, options [nop,nop,TS val 2701393792 ecr 2701393792], length 4
+00:40:50.369851 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 367, win 512, options [nop,nop,TS val 2701393792 ecr 2701393792], length 0
+00:40:50.369861 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 2992:3022, ack 2749, win 554, options [nop,nop,TS val 3649020519 ecr 1019821665], length 30
+00:40:50.369876 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 3022, win 561, options [nop,nop,TS val 1019821665 ecr 3649020519], length 0
+00:40:50.369894 lo    In  IP localhost.57722 > localhost.42343: Flags [.], ack 371, win 512, options [nop,nop,TS val 2701393792 ecr 2701393792], length 0
+00:40:50.369914 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 3022:3048, ack 2749, win 554, options [nop,nop,TS val 3649020519 ecr 1019821665], length 26
+00:40:50.369921 lo    In  IP localhost.42343 > localhost.57722: Flags [F.], seq 371, ack 642, win 512, options [nop,nop,TS val 2701393792 ecr 2701393792], length 0
+00:40:50.369932 enp45s0 In  IP 172.17.0.4.56590 > 172.17.0.3.10250: Flags [.], ack 3048, win 561, options [nop,nop,TS val 1019821665 ecr 3649020519], length 0
+00:40:50.369986 enp45s0 Out IP 172.17.0.3.10250 > 172.17.0.4.56590: Flags [P.], seq 3048:3072, ack 2749, win 554, options [nop,nop,TS val 3649020519 ecr 1019821665], length 24
+tcpdump: pcap_loop: truncated dump file; tried to read 72 captured bytes, only got 53
