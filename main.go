@@ -28,11 +28,13 @@ const (
 	captureDir    = "/captures"
 )
 
+// CaptureManager watches Pods on its node and manages tcpdump processes
+// based on the presence of the tcpdump.antrea.io annotation.
 type CaptureManager struct {
-	clientset    *kubernetes.Clientset
-	nodeName     string
-	captures     map[string]*CaptureProcess
-	capturesLock sync.Mutex
+	clientset *kubernetes.Clientset
+	nodeName  string
+	mu        sync.Mutex
+	captures  map[string]*CaptureProcess
 }
 
 type CaptureProcess struct {
@@ -42,243 +44,167 @@ type CaptureProcess struct {
 }
 
 func main() {
-	log.Println("Starting Antrea PacketCapture Controller...")
-
-	// Get node name from environment
 	nodeName := os.Getenv("NODE_NAME")
 	if nodeName == "" {
 		log.Fatal("NODE_NAME environment variable is required")
 	}
-	log.Printf("Running on node: %s", nodeName)
+	log.Printf("Starting packet-capture controller on node %s", nodeName)
 
-	// Create in-cluster config
 	config, err := rest.InClusterConfig()
 	if err != nil {
 		log.Fatalf("Failed to create in-cluster config: %v", err)
 	}
-
-	// Create clientset
 	clientset, err := kubernetes.NewForConfig(config)
 	if err != nil {
 		log.Fatalf("Failed to create clientset: %v", err)
 	}
 
-	manager := &CaptureManager{
+	mgr := &CaptureManager{
 		clientset: clientset,
 		nodeName:  nodeName,
 		captures:  make(map[string]*CaptureProcess),
 	}
 
-	// Set up signal handling for graceful shutdown
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
+	// Graceful shutdown: stop all captures before exiting
 	sigCh := make(chan os.Signal, 1)
 	signal.Notify(sigCh, syscall.SIGINT, syscall.SIGTERM)
 	go func() {
 		<-sigCh
-		log.Println("Received shutdown signal, cleaning up...")
-		manager.cleanupAll()
+		log.Println("Shutting down...")
+		mgr.cleanupAll()
 		cancel()
 	}()
 
-	// Start watching pods
-	manager.watchPods(ctx)
+	mgr.watchPods(ctx)
 }
 
+// watchPods sets up a Pod informer filtered to this node via a field selector.
+// This ensures each DaemonSet instance only processes Pods on its own node.
 func (m *CaptureManager) watchPods(ctx context.Context) {
-	// Create informer factory with field selector for node-local pods
-	fieldSelector := fields.OneTermEqualSelector("spec.nodeName", m.nodeName).String()
-	
+	selector := fields.OneTermEqualSelector("spec.nodeName", m.nodeName).String()
 	factory := informers.NewSharedInformerFactoryWithOptions(
-		m.clientset,
-		30*time.Second,
-		informers.WithTweakListOptions(func(options *metav1.ListOptions) {
-			options.FieldSelector = fieldSelector
+		m.clientset, 30*time.Second,
+		informers.WithTweakListOptions(func(opts *metav1.ListOptions) {
+			opts.FieldSelector = selector
 		}),
 	)
 
-	podInformer := factory.Core().V1().Pods().Informer()
-
-	// Add event handlers
-	podInformer.AddEventHandler(cache.ResourceEventHandlerFuncs{
-		AddFunc: func(obj interface{}) {
-			pod := obj.(*corev1.Pod)
-			m.handlePodUpdate(pod)
-		},
-		UpdateFunc: func(oldObj, newObj interface{}) {
-			pod := newObj.(*corev1.Pod)
-			m.handlePodUpdate(pod)
-		},
-		DeleteFunc: func(obj interface{}) {
-			pod := obj.(*corev1.Pod)
-			m.handlePodDelete(pod)
-		},
+	inf := factory.Core().V1().Pods().Informer()
+	inf.AddEventHandler(cache.ResourceEventHandlerFuncs{
+		AddFunc:    func(obj interface{}) { m.handlePod(obj.(*corev1.Pod)) },
+		UpdateFunc: func(_, obj interface{}) { m.handlePod(obj.(*corev1.Pod)) },
+		DeleteFunc: func(obj interface{}) { m.handleDelete(obj.(*corev1.Pod)) },
 	})
 
-	// Start informer
 	factory.Start(ctx.Done())
-
-	// Wait for cache sync
-	if !cache.WaitForCacheSync(ctx.Done(), podInformer.HasSynced) {
-		log.Fatal("Failed to sync cache")
+	if !cache.WaitForCacheSync(ctx.Done(), inf.HasSynced) {
+		log.Fatal("Failed to sync informer cache")
 	}
-
-	log.Println("Pod informer synced, watching for changes...")
-
-	// Wait for context cancellation
+	log.Println("Watching for pod annotation changes...")
 	<-ctx.Done()
 }
 
-func (m *CaptureManager) handlePodUpdate(pod *corev1.Pod) {
-	// Skip pods that are not running
+// handlePod starts or stops a capture based on annotation presence.
+func (m *CaptureManager) handlePod(pod *corev1.Pod) {
 	if pod.Status.Phase != corev1.PodRunning {
 		return
 	}
 
-	podKey := fmt.Sprintf("%s/%s", pod.Namespace, pod.Name)
-	annotationValue, hasAnnotation := pod.Annotations[annotationKey]
+	key := fmt.Sprintf("%s/%s", pod.Namespace, pod.Name)
+	val, annotated := pod.Annotations[annotationKey]
 
-	m.capturesLock.Lock()
-	defer m.capturesLock.Unlock()
+	m.mu.Lock()
+	defer m.mu.Unlock()
 
-	_, isCapturing := m.captures[podKey]
+	_, capturing := m.captures[key]
 
-	if hasAnnotation && !isCapturing {
-		// Start capture
-		log.Printf("Starting capture for pod %s with annotation value: %s", podKey, annotationValue)
-		m.startCapture(pod, annotationValue)
-	} else if !hasAnnotation && isCapturing {
-		// Stop capture
-		log.Printf("Stopping capture for pod %s (annotation removed)", podKey)
-		m.stopCapture(podKey)
+	switch {
+	case annotated && !capturing:
+		log.Printf("Starting capture for %s (max files: %s)", key, val)
+		m.startCapture(pod, val)
+	case !annotated && capturing:
+		log.Printf("Stopping capture for %s", key)
+		m.stopCapture(key)
 	}
 }
 
-func (m *CaptureManager) handlePodDelete(pod *corev1.Pod) {
-	podKey := fmt.Sprintf("%s/%s", pod.Namespace, pod.Name)
-	
-	m.capturesLock.Lock()
-	defer m.capturesLock.Unlock()
-
-	if _, isCapturing := m.captures[podKey]; isCapturing {
-		log.Printf("Pod %s deleted, stopping capture", podKey)
-		m.stopCapture(podKey)
+func (m *CaptureManager) handleDelete(pod *corev1.Pod) {
+	key := fmt.Sprintf("%s/%s", pod.Namespace, pod.Name)
+	m.mu.Lock()
+	defer m.mu.Unlock()
+	if _, ok := m.captures[key]; ok {
+		log.Printf("Pod %s deleted, stopping capture", key)
+		m.stopCapture(key)
 	}
 }
 
-func (m *CaptureManager) startCapture(pod *corev1.Pod, annotationValue string) {
-	// Parse max number of files
-	maxFiles, err := strconv.Atoi(strings.TrimSpace(annotationValue))
+// startCapture spawns a tcpdump process with file rotation:
+//   -C 1   rotate after 1 million bytes (~1MB)
+//   -W N   keep at most N rotated files
+//   -i any capture on all interfaces
+func (m *CaptureManager) startCapture(pod *corev1.Pod, val string) {
+	maxFiles, err := strconv.Atoi(strings.TrimSpace(val))
 	if err != nil || maxFiles <= 0 {
-		log.Printf("Invalid annotation value for pod %s/%s: %s", pod.Namespace, pod.Name, annotationValue)
+		log.Printf("Invalid annotation value %q for %s/%s", val, pod.Namespace, pod.Name)
 		return
 	}
 
-	podKey := fmt.Sprintf("%s/%s", pod.Namespace, pod.Name)
-	captureFile := filepath.Join(captureDir, fmt.Sprintf("capture-%s.pcap", pod.Name))
+	key := fmt.Sprintf("%s/%s", pod.Namespace, pod.Name)
+	pcapPath := filepath.Join(captureDir, fmt.Sprintf("capture-%s.pcap", pod.Name))
 
-	// Create context for this capture
 	ctx, cancel := context.WithCancel(context.Background())
-
-	// Build tcpdump command
-	// -C 1: rotate files at 1 million bytes (1MB)
-	// -W N: max N files
-	// -w: output file
-	cmd := exec.CommandContext(ctx, "tcpdump", 
-		"-C", "1",
-		"-W", strconv.Itoa(maxFiles),
-		"-w", captureFile,
-		"-i", "any",
+	cmd := exec.CommandContext(ctx, "tcpdump",
+		"-C", "1", "-W", strconv.Itoa(maxFiles),
+		"-w", pcapPath, "-i", "any",
 	)
 
-	// Capture stderr for error logging
-	stderr, err := cmd.StderrPipe()
-	if err != nil {
-		log.Printf("Failed to create stderr pipe for pod %s: %v", podKey, err)
-		cancel()
-		return
-	}
-
-	// Start the process
 	if err := cmd.Start(); err != nil {
-		log.Printf("Failed to start tcpdump for pod %s: %v", podKey, err)
+		log.Printf("Failed to start tcpdump for %s: %v", key, err)
 		cancel()
 		return
 	}
+	log.Printf("tcpdump started (PID %d) for %s", cmd.Process.Pid, key)
 
-	log.Printf("Started tcpdump (PID %d) for pod %s", cmd.Process.Pid, podKey)
+	m.captures[key] = &CaptureProcess{cmd: cmd, cancel: cancel, files: []string{pcapPath}}
 
-	// Store capture process
-	m.captures[podKey] = &CaptureProcess{
-		cmd:    cmd,
-		cancel: cancel,
-		files:  []string{captureFile},
-	}
-
-	// Monitor process in background
+	// Wait for process exit in background to reap the zombie
 	go func() {
-		// Read stderr in background
-		buf := make([]byte, 1024)
-		for {
-			n, err := stderr.Read(buf)
-			if n > 0 {
-				log.Printf("tcpdump stderr for pod %s: %s", podKey, string(buf[:n]))
-			}
-			if err != nil {
-				break
-			}
-		}
-	}()
-
-	go func() {
-		err := cmd.Wait()
-		if err != nil && ctx.Err() == nil {
-			log.Printf("tcpdump process for pod %s exited with error: %v", podKey, err)
+		if err := cmd.Wait(); err != nil && ctx.Err() == nil {
+			log.Printf("tcpdump for %s exited: %v", key, err)
 		}
 	}()
 }
 
-func (m *CaptureManager) stopCapture(podKey string) {
-	capture, exists := m.captures[podKey]
-	if !exists {
+// stopCapture terminates the tcpdump process and deletes all associated
+// pcap files (including rotated ones like capture-pod.pcap0, .pcap1, etc).
+func (m *CaptureManager) stopCapture(key string) {
+	cap, ok := m.captures[key]
+	if !ok {
 		return
 	}
-
-	// Cancel context to stop tcpdump
-	capture.cancel()
-
-	// Wait a bit for process to terminate
+	cap.cancel()
 	time.Sleep(500 * time.Millisecond)
 
-	// Delete pcap files
-	for _, filePattern := range capture.files {
-		// Handle rotated files (file.pcap0, file.pcap1, etc.)
-		basePattern := filePattern + "*"
-		matches, err := filepath.Glob(basePattern)
-		if err != nil {
-			log.Printf("Error finding capture files for %s: %v", podKey, err)
-			continue
-		}
-
-		for _, file := range matches {
-			if err := os.Remove(file); err != nil {
-				log.Printf("Failed to delete capture file %s: %v", file, err)
+	for _, pattern := range cap.files {
+		matches, _ := filepath.Glob(pattern + "*")
+		for _, f := range matches {
+			if err := os.Remove(f); err != nil {
+				log.Printf("Failed to delete %s: %v", f, err)
 			} else {
-				log.Printf("Deleted capture file: %s", file)
+				log.Printf("Deleted %s", f)
 			}
 		}
 	}
-
-	delete(m.captures, podKey)
-	log.Printf("Capture stopped and cleaned up for pod %s", podKey)
+	delete(m.captures, key)
 }
 
 func (m *CaptureManager) cleanupAll() {
-	m.capturesLock.Lock()
-	defer m.capturesLock.Unlock()
-
-	for podKey := range m.captures {
-		m.stopCapture(podKey)
+	m.mu.Lock()
+	defer m.mu.Unlock()
+	for key := range m.captures {
+		m.stopCapture(key)
 	}
 }
